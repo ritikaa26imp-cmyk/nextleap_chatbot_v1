@@ -3,7 +3,6 @@ FastAPI server for Nextleap FAQ chatbot
 """
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
 from pydantic import BaseModel
 from typing import Optional
@@ -19,7 +18,6 @@ from src.embeddings.vector_db import VectorDB
 from src.query.query_handler import QueryHandler
 from src.query.llm_handler import GeminiLLMHandler
 from src.query.conversation_memory import ConversationMemory
-import os
 
 
 # Initialize FastAPI app
@@ -30,8 +28,6 @@ app = FastAPI(
 )
 
 # CORS middleware - Allow frontend to access API
-# Since we're serving frontend from the same origin, CORS is less critical
-# But keep it for API-only access if needed
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],  # In production, you can restrict this
@@ -80,7 +76,7 @@ def get_query_handler():
 # Request/Response models
 class QueryRequest(BaseModel):
     question: str
-    session_id: Optional[str] = "default"  # Add session_id for conversation memory
+    session_id: Optional[str] = "default"
 
 
 class QueryResponse(BaseModel):
@@ -127,7 +123,6 @@ async def query(request: QueryRequest):
     """
     try:
         handler = get_query_handler()
-        # Pass session_id to maintain conversation context
         result = handler.answer_query(request.question, session_id=request.session_id)
         
         return QueryResponse(
@@ -161,36 +156,41 @@ async def query_get(question: str):
         raise HTTPException(status_code=500, detail=f"Error processing query: {str(e)}")
 
 
-# Serve frontend static files
+# Serve frontend static files - Define AFTER API routes
 frontend_path = Path(__file__).parent.parent.parent / "frontend"
 if frontend_path.exists():
-    # Mount static files (CSS, JS)
-    app.mount("/static", StaticFiles(directory=str(frontend_path)), name="static")
-    
-    # Serve index.html for root and all other routes (SPA routing)
+    # Serve index.html for root
     @app.get("/")
-    async def serve_frontend():
+    async def root():
         """Serve the frontend index.html"""
         index_file = frontend_path / "index.html"
         if index_file.exists():
             return FileResponse(str(index_file))
-        return {"message": "Frontend not found"}
+        # Fallback to health check if frontend not found
+        return await health()
     
-    @app.get("/{path:path}")
-    async def serve_frontend_routes(path: str):
-        """Serve frontend for all routes (SPA)"""
-        # Check if it's an API route
-        if path.startswith(("api/", "docs", "openapi.json", "health", "query")):
-            raise HTTPException(status_code=404, detail="Not found")
+    # Serve static files (CSS, JS) - catch-all for frontend routes
+    @app.get("/{filename}")
+    async def serve_static(filename: str):
+        """Serve static files (CSS, JS) or SPA routes"""
+        # Check if it's a static file
+        static_file = frontend_path / filename
+        if static_file.exists() and static_file.is_file():
+            return FileResponse(str(static_file))
         
-        # Serve index.html for frontend routes
+        # For SPA routing, serve index.html for unknown routes
         index_file = frontend_path / "index.html"
         if index_file.exists():
             return FileResponse(str(index_file))
-        raise HTTPException(status_code=404, detail="Frontend not found")
+        raise HTTPException(status_code=404, detail="Not found")
+else:
+    # If frontend not found, provide health check at root
+    @app.get("/")
+    async def root():
+        """Health check endpoint (frontend not available)"""
+        return await health()
 
 
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
-
