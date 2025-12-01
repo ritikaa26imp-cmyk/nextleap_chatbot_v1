@@ -17,4 +17,12 @@ test_*.py
 tests/
 node_modules/
 .railway/
+.cache/
+~/.cache/
+**/.cache/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
 

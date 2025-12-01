@@ -19,7 +19,11 @@ class EmbeddingGenerator:
         try:
             print(f"Loading embedding model: {model_name}...")
             # Use device='cpu' explicitly to avoid CUDA issues on Railway
-            self.model = SentenceTransformer(model_name, device='cpu')
+            # Cache models in a writable location (Railway's ephemeral storage)
+            import os
+            cache_dir = os.getenv('TRANSFORMERS_CACHE', '/tmp/transformers_cache')
+            os.makedirs(cache_dir, exist_ok=True)
+            self.model = SentenceTransformer(model_name, device='cpu', cache_folder=cache_dir)
             print("Model loaded successfully!")
         except Exception as e:
             print(f"Error loading embedding model: {e}")

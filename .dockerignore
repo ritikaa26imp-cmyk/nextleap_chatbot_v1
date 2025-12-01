@@ -74,6 +74,16 @@ ehthumbs.db
 Thumbs.db
 Desktop.ini
 
+# Model caches (will be downloaded at runtime)
+.cache/
+~/.cache/
+**/.cache/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
 # Git
 .git/
 .gitignore

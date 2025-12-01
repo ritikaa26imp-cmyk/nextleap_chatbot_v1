@@ -7,8 +7,10 @@ nixPkgs = ["python39", "gcc"]
 [phases.install]
 cmds = [
   "pip install --upgrade pip",
-  "pip install torch==2.1.0+cpu --index-url https://download.pytorch.org/whl/cpu",
-  "pip install -r requirements.txt"
+  "pip install --no-cache-dir torch==2.1.0+cpu --index-url https://download.pytorch.org/whl/cpu --no-deps",
+  "pip install --no-cache-dir -r requirements.txt",
+  "rm -rf /root/.cache/pip || true",
+  "rm -rf /root/.cache/huggingface || true"
 ]
 
 [phases.build]
