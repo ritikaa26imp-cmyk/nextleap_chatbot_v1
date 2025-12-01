@@ -1,8 +1,8 @@
 // Backend API URL - automatically detect based on environment
-// In production (Railway), use the same origin; in development, use localhost
+// In production (Vercel), use /api; in development, use localhost
 const API_URL = window.location.origin === 'http://localhost:3000' 
     ? 'http://localhost:8000' 
-    : window.location.origin;
+    : `${window.location.origin}/api`;
 
 // Session management
 let sessionId = localStorage.getItem('chatbot_session_id') || `session_${Date.now()}`;

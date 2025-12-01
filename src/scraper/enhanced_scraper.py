@@ -109,3 +109,4 @@ class EnhancedScraper(NextleapScraper):
         
         return course_data
 
+

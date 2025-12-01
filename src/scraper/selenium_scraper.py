@@ -147,3 +147,4 @@ class SeleniumScraper:
         
         return data
 
+
