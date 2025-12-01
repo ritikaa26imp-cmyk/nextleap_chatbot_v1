@@ -1,8 +1,9 @@
+# Optimized requirements for Railway deployment
 # Web Scraping
 beautifulsoup4==4.12.2
 requests==2.31.0
 lxml==4.9.3
-# selenium==4.15.0  # Removed for production - reduces image size
+# selenium==4.15.0  # Removed - not needed for production
 
 # Data Processing
 pandas==2.1.3
@@ -11,16 +12,16 @@ numpy==1.24.3
 # Vector Database & Embeddings
 chromadb==0.4.18
 sentence-transformers==2.2.2
-# Use CPU-only PyTorch to reduce image size significantly
-# Install torch CPU version separately to avoid conflicts
-torch==2.1.0  # Will be optimized during build
+# Install CPU-only PyTorch to reduce size (~2GB savings)
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.1.0+cpu
 
 # LLM
 google-generativeai==0.3.2
 
 # API Server
 fastapi==0.104.1
-uvicorn==0.24.0
+uvicorn[standard]==0.24.0
 python-multipart==0.0.6
 
 # Utilities
