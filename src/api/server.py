@@ -42,33 +42,48 @@ _embedder = None
 _llm_handler = None
 _query_handler = None
 _conversation_memory = None
+_initialization_error = None
 
 
 def get_query_handler():
     """Initialize and return query handler (singleton pattern)"""
-    global _vector_db, _embedder, _llm_handler, _query_handler, _conversation_memory
+    global _vector_db, _embedder, _llm_handler, _query_handler, _conversation_memory, _initialization_error
     
     if _query_handler is None:
-        print("Initializing components...")
-        
-        # Initialize vector DB and embedder
-        _vector_db = VectorDB()
-        _embedder = EmbeddingGenerator()
-        
-        # Initialize Gemini LLM
-        api_key = os.getenv("GEMINI_API_KEY")
-        if not api_key:
-            raise ValueError("GEMINI_API_KEY environment variable is required")
-        
-        _llm_handler = GeminiLLMHandler(api_key=api_key)
-        
-        # Initialize conversation memory
-        _conversation_memory = ConversationMemory(max_messages=20)
-        
-        # Initialize query handler with memory
-        _query_handler = QueryHandler(_vector_db, _embedder, _llm_handler, _conversation_memory)
-        
-        print("Components initialized successfully!")
+        try:
+            print("Initializing components...")
+            
+            # Initialize vector DB and embedder
+            print("  - Initializing VectorDB...")
+            _vector_db = VectorDB()
+            print("  - Initializing EmbeddingGenerator...")
+            _embedder = EmbeddingGenerator()
+            
+            # Initialize Gemini LLM
+            api_key = os.getenv("GEMINI_API_KEY")
+            if not api_key:
+                raise ValueError("GEMINI_API_KEY environment variable is required")
+            
+            print("  - Initializing Gemini LLM...")
+            _llm_handler = GeminiLLMHandler(api_key=api_key)
+            
+            # Initialize conversation memory
+            print("  - Initializing ConversationMemory...")
+            _conversation_memory = ConversationMemory(max_messages=20)
+            
+            # Initialize query handler with memory
+            print("  - Initializing QueryHandler...")
+            _query_handler = QueryHandler(_vector_db, _embedder, _llm_handler, _conversation_memory)
+            
+            print("Components initialized successfully!")
+            _initialization_error = None
+        except Exception as e:
+            error_msg = str(e)
+            print(f"ERROR during initialization: {error_msg}")
+            import traceback
+            traceback.print_exc()
+            _initialization_error = error_msg
+            raise
     
     return _query_handler
 
@@ -93,14 +108,29 @@ class HealthResponse(BaseModel):
 # API Endpoints - Define these BEFORE frontend routes
 @app.get("/health", response_model=HealthResponse)
 async def health():
-    """Health check endpoint"""
+    """Health check endpoint - lightweight, doesn't require full initialization"""
     try:
-        vector_db = VectorDB()
-        info = vector_db.get_collection_info()
+        # Try to get collection info, but don't fail if not initialized yet
+        try:
+            vector_db = VectorDB()
+            info = vector_db.get_collection_info()
+            chunk_count = info.get("chunk_count", 0)
+        except Exception as e:
+            print(f"Warning: Could not get collection info: {e}")
+            chunk_count = 0
+        
+        # Check if there's an initialization error
+        if _initialization_error:
+            return {
+                "status": "error",
+                "message": f"Initialization error: {_initialization_error}",
+                "knowledge_base_chunks": chunk_count
+            }
+        
         return {
             "status": "healthy",
             "message": "Nextleap FAQ Chatbot API is running",
-            "knowledge_base_chunks": info["chunk_count"]
+            "knowledge_base_chunks": chunk_count
         }
     except Exception as e:
         return {
@@ -129,7 +159,16 @@ async def query(request: QueryRequest):
             answer=result["answer"],
             source_url=result.get("source_url")
         )
+    except ValueError as e:
+        # Handle missing API key or initialization errors
+        error_msg = str(e)
+        print(f"Initialization error: {error_msg}")
+        raise HTTPException(status_code=500, detail=f"Initialization error: {error_msg}")
     except Exception as e:
+        import traceback
+        error_details = traceback.format_exc()
+        print(f"Error processing query: {error_details}")
+        # Don't expose full traceback to client, just the error message
         raise HTTPException(status_code=500, detail=f"Error processing query: {str(e)}")
 
 

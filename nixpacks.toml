@@ -13,7 +13,8 @@ cmds = [
 
 [phases.build]
 cmds = [
-  "mkdir -p data/knowledge_base/chroma_db data/processed data/raw"
+  "mkdir -p data/knowledge_base/chroma_db data/processed data/raw",
+  "python3 scripts/build_kb.py || echo 'Warning: Knowledge base build failed, will be created on first query'"
 ]
 
 [start]

@@ -16,9 +16,14 @@ class EmbeddingGenerator:
         Args:
             model_name: Name of the sentence transformer model
         """
-        print(f"Loading embedding model: {model_name}...")
-        self.model = SentenceTransformer(model_name)
-        print("Model loaded successfully!")
+        try:
+            print(f"Loading embedding model: {model_name}...")
+            # Use device='cpu' explicitly to avoid CUDA issues on Railway
+            self.model = SentenceTransformer(model_name, device='cpu')
+            print("Model loaded successfully!")
+        except Exception as e:
+            print(f"Error loading embedding model: {e}")
+            raise
     
     def generate_embeddings(self, texts: List[str]) -> List[List[float]]:
         """
