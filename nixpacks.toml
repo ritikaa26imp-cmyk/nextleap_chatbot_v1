@@ -20,8 +20,6 @@ cmds = [
 [phases.build]
 cmds = [
   "mkdir -p data/knowledge_base/chroma_db data/processed data/raw"
-  # Skip KB build during Docker build to avoid downloading models
-  # KB will be built automatically on first query if missing
 ]
 
 [start]
