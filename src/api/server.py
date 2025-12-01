@@ -53,9 +53,24 @@ def get_query_handler():
         try:
             print("Initializing components...")
             
-            # Initialize vector DB and embedder
+            # Initialize vector DB first
             print("  - Initializing VectorDB...")
             _vector_db = VectorDB()
+            
+            # Check if knowledge base exists, build if needed
+            info = _vector_db.get_collection_info()
+            if info.get("chunk_count", 0) == 0:
+                print("  - Knowledge base is empty, building it now...")
+                try:
+                    from scripts.build_kb import main as build_kb
+                    build_kb()
+                    # Re-check after build
+                    info = _vector_db.get_collection_info()
+                    print(f"  - Knowledge base built: {info.get('chunk_count', 0)} chunks")
+                except Exception as kb_error:
+                    print(f"  - Warning: Could not build KB: {kb_error}")
+                    print("  - KB will be built on first query")
+            
             print("  - Initializing EmbeddingGenerator...")
             _embedder = EmbeddingGenerator()
             
