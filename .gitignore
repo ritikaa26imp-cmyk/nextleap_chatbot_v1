@@ -1,0 +1,112 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+
+# Data files - Vector database (can be regenerated)
+data/knowledge_base/chroma_db/
+
+# Log files
+*.log
+server.log
+frontend.log
+*.log.*
+
+# Process IDs
+*.pid
+server.pid
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
+*.swp
+*.swo
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Raw HTML test files (large)
+data/raw/*.html
+data/raw/test_*.html
+
+# Keep data structure but ignore large generated files
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/knowledge_base/.gitkeep
+
+# Selenium
+geckodriver.log
+chromedriver.log
+
+# Node modules (if you add any frontend build tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+

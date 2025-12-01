@@ -1,0 +1,74 @@
+{
+  "scraped_at": "2025-12-01T16:50:20.499546",
+  "source_url": "https://nextleap.app/course/data-analyst-course",
+  "cohort": {
+    "cohort_name": "Data Analyst Certification Course",
+    "cohort_description": "Structured learning, live classes and personalised feedback to kickstart your data analyst/business analyst career. Join the NextLeap Data Analyst Fellowship!",
+    "source_url": "https://nextleap.app/course/data-analyst-course"
+  },
+  "batch": {
+    "batch_start_date": null,
+    "cost": "49,999",
+    "course_type": "live",
+    "source_url": "https://nextleap.app/course/data-analyst-course"
+  },
+  "curriculum": {
+    "curriculum": [
+      "Introduction to Data Analytics: Understanding Types of Data. Metrics & types of analysis. Steps in exploratory data analysis. Introduction to data visualisation",
+      "Data Preparation using Excel: Basic Functions & Shortcuts. Data Formatting Techniques. Data Cleaning Techniques. Data Protection & Error Validation",
+      "Data Analysis using Excel: Lookup & Merging Techniques. PivotTable & Grouping. Conditional Formatting. Scenario and Sensitivity Analysis",
+      "Data Visualisation using Excel: Charts and Visualization Techniques. Data Visualisation Best Practices. Pivot Charts. Building interactive Dashboards",
+      "Data Analysis using SQL: Introduction to Database. Selection, Filtering & Ordering. Data Types, Operators and functions. Aggregate and Group By commands",
+      "Data Manipulation with SQL: Conditional and Case Statements. Working with date/timestamps. Joins. Subqueries",
+      "Advanced Data Manipulation with SQL: Common Table Expression (CTE). Window functions in SQL. SET operators",
+      "Data Preparation & Exploration with Tableau: Loading Data on Tableau. Data Cleaning & Preparation Techniques. Aggregation and Logical Functions. Filters & Analytics in Tableau",
+      "Data Visualisation with Tableau: Understanding Chart Types. Creating Charts in Tableau. LOD and Calculated Fields. Creating Dashboards & Stories",
+      "Introduction to Python: Python Environment setup. Programming Fundamentals. Data Types. Strings, Sets, Tuples & List",
+      "Programming in Python: Dictionaries. Conditional Statements. Loop and Control Flow. Functions",
+      "Data Analysis using Python: Mathematical Computing using Numpy. Data Manipulation using Pandas. Exploratory Data Analysis using Pandas. Confirmatory Data Analysis in Python",
+      "Data Visualisation using Python: Introduction to Python Libraries. Creating plots with Matplotlib. Visualisation using Seaborn. Interactive Visualisation with Plotly",
+      "Interview Prep & Portfolio Building: Interview Preparation. Resume Building. Portfolio Building. Graduation Test & Projects",
+      "Descriptive and Inferential statistics: Z-score. Central Limit Theorem, p-value. Hypothesis testing. Power analysis",
+      "Database Design with SQL: Understanding Data Storage concepts. Data Modeling & Schema Design. Normalisation & denormalization. Working with Views",
+      "Data Storytelling for Analysts: Data storytelling. Chart Types. Trend Visualisation"
+    ],
+    "curriculum_text": "Introduction to Data Analytics: Understanding Types of Data. Metrics & types of analysis. Steps in exploratory data analysis. Introduction to data visualisation\nData Preparation using Excel: Basic Functions & Shortcuts. Data Formatting Techniques. Data Cleaning Techniques. Data Protection & Error Validation\nData Analysis using Excel: Lookup & Merging Techniques. PivotTable & Grouping. Conditional Formatting. Scenario and Sensitivity Analysis\nData Visualisation using Excel: Charts and Visualization Techniques. Data Visualisation Best Practices. Pivot Charts. Building interactive Dashboards\nData Analysis using SQL: Introduction to Database. Selection, Filtering & Ordering. Data Types, Operators and functions. Aggregate and Group By commands\nData Manipulation with SQL: Conditional and Case Statements. Working with date/timestamps. Joins. Subqueries\nAdvanced Data Manipulation with SQL: Common Table Expression (CTE). Window functions in SQL. SET operators\nData Preparation & Exploration with Tableau: Loading Data on Tableau. Data Cleaning & Preparation Techniques. Aggregation and Logical Functions. Filters & Analytics in Tableau\nData Visualisation with Tableau: Understanding Chart Types. Creating Charts in Tableau. LOD and Calculated Fields. Creating Dashboards & Stories\nIntroduction to Python: Python Environment setup. Programming Fundamentals. Data Types. Strings, Sets, Tuples & List\nProgramming in Python: Dictionaries. Conditional Statements. Loop and Control Flow. Functions\nData Analysis using Python: Mathematical Computing using Numpy. Data Manipulation using Pandas. Exploratory Data Analysis using Pandas. Confirmatory Data Analysis in Python\nData Visualisation using Python: Introduction to Python Libraries. Creating plots with Matplotlib. Visualisation using Seaborn. Interactive Visualisation with Plotly\nInterview Prep & Portfolio Building: Interview Preparation. Resume Building. Portfolio Building. Graduation Test & Projects\nDescriptive and Inferential statistics: Z-score. Central Limit Theorem, p-value. Hypothesis testing. Power analysis\nDatabase Design with SQL: Understanding Data Storage concepts. Data Modeling & Schema Design. Normalisation & denormalization. Working with Views\nData Storytelling for Analysts: Data storytelling. Chart Types. Trend Visualisation",
+    "source_url": "https://nextleap.app/course/data-analyst-course"
+  },
+  "mentors_instructors": {
+    "mentors": [
+      "Sumit Shukla",
+      "Navdeep Singh",
+      "Shashank Mittal",
+      "Rishav Kumar",
+      "Akash Garg",
+      "Saksham  Arora",
+      "Sahil Agarwal"
+    ],
+    "instructors": [
+      "Sahil Agarwal",
+      "Sumit Shukla",
+      "Rishav Kumar",
+      "Akash Garg",
+      "Saksham  Arora",
+      "Shashank Mittal",
+      "Navdeep Singh"
+    ],
+    "mentors_text": "Sahil Agarwal, Sumit Shukla, Rishav Kumar, Akash Garg, Saksham  Arora, Shashank Mittal, Navdeep Singh",
+    "source_url": "https://nextleap.app/course/data-analyst-course"
+  },
+  "placements": {
+    "placement_info": [
+      "Landing your dream data analyst or business analyst job is our priority. Our placement support includes:",
+      "Resume and LinkedIn Optimization:Craft a winning resume and LinkedIn profile that highlights your strengths in data analyticsMock Interviews:Prepare with industry-relevant data analyst and business analyst interview questionsInterview with Hiring Partners:Become a Top Fellow and tap into our network of 500+ hiring companies, including top startups and tech companies",
+      "Are you ready to harness the power of data and launch a rewarding career? The NextLeap Data Analyst Fellowship is your gateway to becoming a skilled data analyst/business analyst in today's data-driven world. Our comprehensive program combines cutting-edge curriculum, hands-on projects, and placement support to set you up for success in the booming field of data analytics."
+    ],
+    "placement_text": "Landing your dream data analyst or business analyst job is our priority. Our placement support includes:\nResume and LinkedIn Optimization:Craft a winning resume and LinkedIn profile that highlights your strengths in data analyticsMock Interviews:Prepare with industry-relevant data analyst and business analyst interview questionsInterview with Hiring Partners:Become a Top Fellow and tap into our network of 500+ hiring companies, including top startups and tech companies\nAre you ready to harness the power of data and launch a rewarding career? The NextLeap Data Analyst Fellowship is your gateway to becoming a skilled data analyst/business analyst in today's data-driven world. Our comprehensive program combines cutting-edge curriculum, hands-on projects, and placement support to set you up for success in the booming field of data analytics.",
+    "source_url": "https://nextleap.app/course/data-analyst-course"
+  },
+  "reviews": {
+    "reviews": [],
+    "reviews_text": null,
+    "source_url": "https://nextleap.app/course/data-analyst-course"
+  }
+}

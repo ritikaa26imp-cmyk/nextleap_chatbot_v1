@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NextLeap FAQ Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Chatbot Panel -->
+        <div class="chatbot-panel">
+            <!-- Header Section -->
+            <div class="header-section">
+                <!-- AI Icon -->
+                <div class="ai-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <!-- First sparkle -->
+                        <path d="M12 2L13.5 8.5L20 10L13.5 11.5L12 18L10.5 11.5L4 10L10.5 8.5L12 2Z" fill="currentColor"/>
+                        <!-- Second overlapping sparkle (offset) -->
+                        <path d="M12 4L13.2 9L18 10.2L13.2 11.4L12 16.4L10.8 11.4L6 10.2L10.8 9L12 4Z" fill="currentColor" opacity="0.6" transform="translate(1, 1)"/>
+                    </svg>
+                </div>
+                <!-- Main Prompt -->
+                <h2 class="main-prompt">Ask our AI anything</h2>
+            </div>
+
+            <!-- Suggestions Section -->
+            <div class="suggestions-section">
+                <p class="suggestions-label">Suggestions on what to ask Our AI</p>
+                <div class="suggestion-buttons">
+                    <button class="suggestion-btn" onclick="askSuggestion('What is the cost of the data analyst course?')">
+                        What is the cost of the data analyst course?
+                    </button>
+                    <button class="suggestion-btn" onclick="askSuggestion('When is the product manager fellowship starting?')">
+                        When is the product manager fellowship starting?
+                    </button>
+                </div>
+            </div>
+
+            <!-- Chat Messages Area -->
+            <div class="chat-messages" id="chatMessages">
+                <!-- Messages will be added here dynamically -->
+            </div>
+
+            <!-- Loading Indicator -->
+            <div class="loading-indicator" id="loadingIndicator" style="display: none;">
+                <div class="loading-dots">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+            <!-- Input Section -->
+            <div class="input-section">
+                <input 
+                    type="text" 
+                    id="userInput" 
+                    class="chat-input" 
+                    placeholder="Ask me anything about NextLeap courses"
+                    onkeypress="handleKeyPress(event)"
+                />
+                <button class="send-button" onclick="sendMessage()">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2 21L23 12L2 3V10L17 12L2 14V21Z" fill="currentColor"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
