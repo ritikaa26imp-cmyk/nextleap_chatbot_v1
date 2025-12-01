@@ -32,7 +32,11 @@ def get_query_handler():
         _embedder = EmbeddingGenerator()
         
         # Initialize Gemini LLM
-        api_key = os.getenv("GEMINI_API_KEY", "AIzaSyAowbwS15xpzN2bs8Q3rGhvlQe4SN3kMSc")
+        api_key = os.getenv("GEMINI_API_KEY")
+        if not api_key:
+            print("ERROR: GEMINI_API_KEY environment variable is required!")
+            print("Please set it using: export GEMINI_API_KEY='your_api_key_here'")
+            sys.exit(1)
         _llm_handler = GeminiLLMHandler(api_key=api_key)
         
         _query_handler = QueryHandler(_vector_db, _embedder, _llm_handler)
