@@ -94,77 +94,24 @@ class HealthResponse(BaseModel):
     knowledge_base_chunks: int
 
 
-# Serve frontend static files
-frontend_path = Path(__file__).parent.parent.parent / "frontend"
-if frontend_path.exists():
-    # Mount static files (CSS, JS) - but we'll serve them manually for better control
-    # app.mount("/static", StaticFiles(directory=str(frontend_path)), name="static")
-    
-    # Serve index.html for root
-    @app.get("/")
-    async def root():
-        """Serve the frontend index.html"""
-        index_file = frontend_path / "index.html"
-        if index_file.exists():
-            return FileResponse(str(index_file))
-        # Fallback to health check if frontend not found
-        try:
-            vector_db = VectorDB()
-            info = vector_db.get_collection_info()
-            return {
-                "status": "healthy",
-                "message": "Nextleap FAQ Chatbot API is running (frontend not found)",
-                "knowledge_base_chunks": info["chunk_count"]
-            }
-        except Exception as e:
-            return {
-                "status": "error",
-                "message": str(e),
-                "knowledge_base_chunks": 0
-            }
-    
-    # Serve static files (CSS, JS)
-    @app.get("/{filename}")
-    async def serve_static(filename: str):
-        """Serve static files (CSS, JS)"""
-        # Don't serve API routes as static files
-        if filename in ["docs", "openapi.json", "health", "query"] or filename.startswith("api/"):
-            raise HTTPException(status_code=404, detail="Not found")
-        
-        static_file = frontend_path / filename
-        if static_file.exists() and static_file.is_file():
-            return FileResponse(str(static_file))
-        
-        # For SPA routing, serve index.html for unknown routes
-        index_file = frontend_path / "index.html"
-        if index_file.exists():
-            return FileResponse(str(index_file))
-        raise HTTPException(status_code=404, detail="Not found")
-else:
-    # If frontend not found, provide health check
-    @app.get("/")
-    async def root():
-        """Health check endpoint (frontend not available)"""
-        try:
-            vector_db = VectorDB()
-            info = vector_db.get_collection_info()
-            return {
-                "status": "healthy",
-                "message": "Nextleap FAQ Chatbot API is running",
-                "knowledge_base_chunks": info["chunk_count"]
-            }
-        except Exception as e:
-            return {
-                "status": "error",
-                "message": str(e),
-                "knowledge_base_chunks": 0
-            }
-
-
+# API Endpoints - Define these BEFORE frontend routes
 @app.get("/health", response_model=HealthResponse)
 async def health():
     """Health check endpoint"""
-    return await root()
+    try:
+        vector_db = VectorDB()
+        info = vector_db.get_collection_info()
+        return {
+            "status": "healthy",
+            "message": "Nextleap FAQ Chatbot API is running",
+            "knowledge_base_chunks": info["chunk_count"]
+        }
+    except Exception as e:
+        return {
+            "status": "error",
+            "message": str(e),
+            "knowledge_base_chunks": 0
+        }
 
 
 @app.post("/query", response_model=QueryResponse)
