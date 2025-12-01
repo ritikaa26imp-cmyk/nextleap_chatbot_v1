@@ -56,12 +56,13 @@ class QueryHandler:
                     "distance": search_results["distances"][0][i] if search_results.get("distances") else None
                 })
         
-        # Filter by course if specified
+        # Filter by course if specified - prioritize matching course chunks
         if course_filter:
             # Prioritize chunks from the specified course
             matching_course = [c for c in contexts if course_filter.lower() in c.get("metadata", {}).get("cohort_name", "").lower()]
             other_courses = [c for c in contexts if course_filter.lower() not in c.get("metadata", {}).get("cohort_name", "").lower()]
-            contexts = matching_course + other_courses
+            # Put matching course chunks first, limit other courses to avoid confusion
+            contexts = matching_course + other_courses[:5]  # Limit other courses to top 5
         
         # Prioritize batch chunks for date/start/cost queries
         query_lower = query.lower()
@@ -182,18 +183,38 @@ class QueryHandler:
         # Get conversation history
         conversation_history = self.conversation_memory.get_conversation_context(session_id)
         
-        # Extract course name from conversation history if user refers to "the course"
+        # Extract course name from current query first, then from conversation history
         course_filter = None
-        if conversation_history:
-            # Look for course names in previous conversation
+        
+        # Course name mapping - various ways users might refer to courses
+        course_keywords = {
+            "product management": "Product Management",
+            "product manager": "Product Management",
+            "pm course": "Product Management",
+            "data analyst": "Data Analyst",
+            "data analysis": "Data Analyst",
+            "business analyst": "Business Analyst",
+            "ui ux": "UI UX Design",
+            "ui/ux": "UI UX Design",
+            "ux ui": "UI UX Design",
+            "ux/ui": "UI UX Design",
+            "ui ux design": "UI UX Design",
+            "ux design": "UI UX Design",
+            "ui design": "UI UX Design",
+            "product designer": "UI UX Design",
+            "product design": "UI UX Design"
+        }
+        
+        # First, check current query for course name
+        query_lower = query.lower()
+        for keyword, course_name in course_keywords.items():
+            if keyword in query_lower:
+                course_filter = course_name
+                break
+        
+        # If not found in current query, check conversation history
+        if not course_filter and conversation_history:
             history_lower = conversation_history.lower()
-            course_keywords = {
-                "product management": "Product Management",
-                "data analyst": "Data Analyst",
-                "business analyst": "Business Analyst",
-                "ui ux": "UI UX Design",
-                "ui/ux": "UI UX Design"
-            }
             for keyword, course_name in course_keywords.items():
                 if keyword in history_lower:
                     course_filter = course_name

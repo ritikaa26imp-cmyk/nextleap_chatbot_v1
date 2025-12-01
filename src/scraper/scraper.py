@@ -152,18 +152,21 @@ class NextleapScraper:
         # Extract cost from page text first (more accurate, may be updated dynamically)
         # Look for prices in visible text before checking JSON-LD
         page_text = soup.get_text()
-        cost_patterns = [
-            r'[₹Rs\.\s]*(\d{1,3}(?:,\d{3})*(?:\.\d{2})?)',
-            r'(\d{1,3}(?:,\d{3})*)\s*(?:INR|Rs|₹)'
-        ]
         
         # Look for prices in context of course fee, cost, price keywords
+        # Prioritize patterns that are more specific to course pricing
         price_context_patterns = [
-            r'(?:course fee|cost|price|fee)[:\s]*[₹Rs\.\s]*(\d{1,3}(?:,\d{3})*)',
-            r'[₹Rs\.\s]*(\d{1,3}(?:,\d{3})*)\s*(?:course fee|cost|price|fee)',
+            # Most specific: course fee, enrollment fee, etc.
+            r'(?:course fee|enrollment fee|program fee|course cost|course price)[:\s]*[₹Rs\.\s]*(\d{1,3}(?:,\d{3})*)',
+            # Specific cost/price mentions
+            r'(?:cost|price|fee)[:\s]*[₹Rs\.\s]*(\d{1,3}(?:,\d{3})*)',
+            # Price before keywords
+            r'[₹Rs\.\s]*(\d{1,3}(?:,\d{3})*)\s*(?:course fee|enrollment fee|program fee|cost|price|fee)',
         ]
         
-        # Try context-based extraction first
+        # Collect all potential prices with their context
+        candidate_prices = []
+        
         for pattern in price_context_patterns:
             matches = re.finditer(pattern, page_text, re.IGNORECASE)
             for match in matches:
@@ -171,14 +174,37 @@ class NextleapScraper:
                 try:
                     price = float(price_str)
                     if 20000 <= price <= 60000:  # Reasonable range for course fees
-                        data["cost"] = f"{int(price):,}"
-                        break
+                        # Get context around the match
+                        start = max(0, match.start() - 50)
+                        end = min(len(page_text), match.end() + 50)
+                        context = page_text[start:end].lower()
+                        
+                        # Score based on context relevance
+                        score = 0
+                        if 'course' in context or 'program' in context or 'enrollment' in context:
+                            score += 3
+                        if 'fee' in context or 'cost' in context or 'price' in context:
+                            score += 2
+                        # Penalize if it's clearly about something else
+                        if any(word in context for word in ['discount', 'offer', 'save', 'was', 'original']):
+                            score -= 2
+                        
+                        candidate_prices.append({
+                            'price': price,
+                            'formatted': f"{int(price):,}",
+                            'score': score,
+                            'context': context
+                        })
                 except ValueError:
                     continue
-            if data["cost"]:
-                break
         
-        # Extract from JSON-LD if not found in text (fallback)
+        # Sort by score (highest first) and take the best match
+        if candidate_prices:
+            candidate_prices.sort(key=lambda x: x['score'], reverse=True)
+            data["cost"] = candidate_prices[0]['formatted']
+            print(f"  Extracted cost: ₹{data['cost']} (score: {candidate_prices[0]['score']})")
+        
+        # Extract from JSON-LD if not found in text (fallback, but JSON-LD may be outdated)
         if not data["cost"] and json_ld:
             for item in json_ld:
                 # Extract cost from offers

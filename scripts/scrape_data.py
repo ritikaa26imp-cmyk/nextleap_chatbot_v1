@@ -65,6 +65,23 @@ def main():
         json.dump(validated_courses, f, indent=2, ensure_ascii=False)
     print(f"Validated data saved to: {processed_file}")
     
+    # Run data validation and fix script to ensure consistency
+    print("\nRunning data validation and fix script...")
+    try:
+        import importlib.util
+        spec = importlib.util.spec_from_file_location("validate_and_fix_data", 
+                                                      Path(__file__).parent / "validate_and_fix_data.py")
+        validate_module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(validate_module)
+        fixes = validate_module.validate_and_fix_data()
+        if fixes:
+            print(f"Applied {len(fixes)} data fixes")
+            # Reload the fixed data
+            with open(processed_file, 'r', encoding='utf-8') as f:
+                validated_courses = json.load(f)
+    except Exception as e:
+        print(f"Warning: Could not run validation script: {e}")
+    
     # Print summary
     print("\n" + "="*50)
     print("SCRAPING SUMMARY")

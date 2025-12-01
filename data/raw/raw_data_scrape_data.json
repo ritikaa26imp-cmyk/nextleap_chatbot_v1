@@ -1,256 +1,6 @@
 [
   {
-    "scraped_at": "2025-12-01T18:27:13.357070",
-    "source_url": "https://nextleap.app/course/ui-ux-design-course",
-    "cohort": {
-      "cohort_name": "UI UX Design Certification Course",
-      "cohort_description": "Structured learning, live classes and personalised feedback to kickstart your UI/UX Design career. Join the NextLeap Product Designer Fellowship!",
-      "source_url": "https://nextleap.app/course/ui-ux-design-course"
-    },
-    "batch": {
-      "batch_start_date": null,
-      "cost": "49,999",
-      "course_type": "live",
-      "source_url": "https://nextleap.app/course/ui-ux-design-course"
-    },
-    "payment_options": {
-      "emi_options": [
-        "₹469/month"
-      ],
-      "payment_options": [],
-      "source_url": "https://nextleap.app/course/ui-ux-design-course"
-    },
-    "curriculum": {
-      "curriculum": [
-        "Mapping Business Outcomes to Product Outcomes: Systems thinking. Understanding Business Models. KPI trees. Impact Mapping",
-        "Product Discovery & User Research: User Research Methodologies. Journey Mapping & User Personas. Hypotheses building. Problem Framing",
-        "Ideation & Validation: Mindmapping solutions. Understanding product risks. Crafting User Stories. Human Motivations",
-        "Design Psychology: Understanding human behaviours. Minimising cognitive load. Designing for trust. Conducting UX audits",
-        "Interaction Design: Crafting user flows. Designing wireframes. Information architecture. UX laws & usability heuristics",
-        "Visual Design Principles: Moodboarding. Colour Theory. Typography. Grids & layouts",
-        "Design Systems: Inclusive design practices. Design Accessibility. Atomic Design systems. Design Systems Tools",
-        "LLMs & Prompt Engineering: Basics of Machine Learning. Understanding LLMs. Prompt Engineering. Tokens, temperature, context window",
-        "Designing for AI Products: User Controls for AI products. Trust & decision making. AI error states. UI patterns in Agentic AI",
-        "Designing with AI Tools: Figma Make. Midjourney. Gemini Flash",
-        "Building a Design Portfolio: Components of a portfolio. Building a UX case study. Portfolio presentation",
-        "Building a Design Portfolio: Continue to build portfolio. Portfolio Review. Portfolio presentation",
-        "Portfolio Building & Graduation Project: Continue to build portfolio. Work on graduation project. Submit graduation project",
-        "Motion Design: Principles of Motion Design. Animation principles. Creating micro-interactions. Motion in UX",
-        "Material Design Deep Dive: Components in Android Material Design. Material Design Toolbar. Navigation View. RecyclerView and CardView"
-      ],
-      "curriculum_text": "Mapping Business Outcomes to Product Outcomes: Systems thinking. Understanding Business Models. KPI trees. Impact Mapping Product Discovery & User Research: User Research Methodologies. Journey Mapping & User Personas. Hypotheses building. Problem Framing Ideation & Validation: Mindmapping solutions. Understanding product risks. Crafting User Stories. Human Motivations Design Psychology: Understanding human behaviours. Minimising cognitive load. Designing for trust. Conducting UX audits Interaction Design: Crafting user flows. Designing wireframes. Information architecture. UX laws & usability heuristics Visual Design Principles: Moodboarding. Colour Theory. Typography. Grids & layouts Design Systems: Inclusive design practices. Design Accessibility. Atomic Design systems. Design Systems Tools LLMs & Prompt Engineering: Basics of Machine Learning. Understanding LLMs. Prompt Engineering. Tokens, temperature, context window Designing for AI Products: User Controls for AI products. Trust & decision making. AI error states. UI patterns in Agentic AI Designing with AI Tools: Figma Make. Midjourney. Gemini Flash Building a Design Portfolio: Components of a portfolio. Building a UX case study. Portfolio presentation Building a Design Portfolio: Continue to build portfolio. Portfolio Review. Portfolio presentation Portfolio Building & Graduation Project: Continue to build portfolio. Work on graduation project. Submit graduation project Motion Design: Principles of Motion Design. Animation principles. Creating micro-interactions. Motion in UX Material Design Deep Dive: Components in Android Material Design. Material Design Toolbar. Navigation View. RecyclerView and CardView",
-      "source_url": "https://nextleap.app/course/ui-ux-design-course"
-    },
-    "mentors_instructors": {
-      "mentors": [
-        "Arindam Mukherjee",
-        "Binoy Cyriac",
-        "Neel Raj",
-        "Ranganath Krishnamani",
-        "Karthi Subbaraman",
-        "Sharang Sharma",
-        "Ashutosh Vashishtha",
-        "Kartik Singh"
-      ],
-      "instructors": [
-        "Karthi Subbaraman",
-        "Kartik  Singh",
-        "Arindam Mukherjee",
-        "Ranganath Krishnamani",
-        "Ashutosh  Vashishtha",
-        "Neel Raj",
-        "Binoy Cyriac",
-        "Sharang Sharma"
-      ],
-      "mentors_text": "Karthi Subbaraman, Kartik Singh, Arindam Mukherjee, Ranganath Krishnamani, Ashutosh Vashishtha, Neel Raj, Binoy Cyriac, Sharang Sharma",
-      "source_url": "https://nextleap.app/course/ui-ux-design-course"
-    },
-    "placements": {
-      "placement_info": [
-        "At NextLeap, we are committed to helping you land a design role upon completing the course. Our placement support includes:",
-        "Resume and LinkedIn Optimization:Craft a winning resume and LinkedIn profile that highlights your strengths as a UI/UX designerMock Interviews:Prepare with industry-relevant UI/UX design interview questionsInterview with Hiring Partners:Become a Top Fellow and tap into our network of 500+ hiring companies, including top startups and tech companies"
-      ],
-      "placement_text": "At NextLeap, we are committed to helping you land a design role upon completing the course. Our placement support includes: Resume and LinkedIn Optimization:Craft a winning resume and LinkedIn profile that highlights your strengths as a UI/UX designerMock Interviews:Prepare with industry-relevant UI/UX design interview questionsInterview with Hiring Partners:Become a Top Fellow and tap into our network of 500+ hiring companies, including top startups and tech companies",
-      "source_url": "https://nextleap.app/course/ui-ux-design-course"
-    },
-    "reviews": {
-      "reviews": [
-        "NextLeap has empowered countless learners to become successful designers. Here’s what some of our graduates have to say:",
-        "\"The NextLeap UI/UX Design Course helped me transition from graphic design to product design. The real-world projects and guidance from industry mentors were crucial to my growth.\"—Chandni Karelia (transitioned from Graphic Design to UX Designer at Proshort)",
-        "\"The hands-on approach and personalized feedback allowed me to build a strong portfolio, which helped me land a product designer role at Swiggy.\"—Soham Poddar (transitioned from a fresher to a Senior Product Designer at Thokbajaar)",
-        "Read More Product Design Success Stories"
-      ],
-      "reviews_text": "NextLeap has empowered countless learners to become successful designers. Here’s what some of our graduates have to say: \"The NextLeap UI/UX Design Course helped me transition from graphic design to product design. The real-world projects and guidance from industry mentors were crucial to my growth.\"—Chandni Karelia (transitioned from Graphic Design to UX Designer at Proshort) \"The hands-on approach and personalized feedback allowed me to build a strong portfolio, which helped me land a product designer role at Swiggy.\"—Soham Poddar (transitioned from a fresher to a Senior Product Designer at Thokbajaar) Read More Product Design Success Stories",
-      "source_url": "https://nextleap.app/course/ui-ux-design-course"
-    }
-  },
-  {
-    "scraped_at": "2025-12-01T18:27:14.474728",
-    "source_url": "https://nextleap.app/course/product-management-course",
-    "cohort": {
-      "cohort_name": "Product Management Certification Course",
-      "cohort_description": "This Product Management course helps working professionals and fresh graduates switch to product management jobs by providing structured learning via live classes, guidance from mentors, mock interviews, portfolio preparation and 1 year Placement support",
-      "source_url": "https://nextleap.app/course/product-management-course"
-    },
-    "batch": {
-      "batch_start_date": null,
-      "cost": "49,999",
-      "course_type": "live",
-      "source_url": "https://nextleap.app/course/product-management-course"
-    },
-    "payment_options": {
-      "emi_options": [
-        "₹322/month"
-      ],
-      "payment_options": [],
-      "source_url": "https://nextleap.app/course/product-management-course"
-    },
-    "curriculum": {
-      "curriculum": [
-        "Mapping Business Outcomes to Product Outcomes: Learn first principles thinking and how to adopt a systems thinking approach while solving problems. Learn about business models, key business outcomes and how to map them to product outcomes using KPI trees. Understand the design thinking process and learn to break down complex problems into manageable components.",
-        "Product Discovery and User Research: Identify the right problems and their business impact. Understand the Outcomes, Opportunities, Solutions approach to solving product management problems and learn how to map product outcomes to opportunities that can drive business impact. Identify user problems, needs, JTBDs, and personas. Leverage user personas and empathy maps to better understand users' needs and motivations.",
-        "Problem Framing, Ideation and Validation: Learn how to pick the right problems that deliver significant business impact. Learn techniques like the Problem Framing Canvas, Mindmaps, Hypotheses testing to prioritise product problems. Understand how to evaluate potential solutions around the product risks of value, usability, feasibility, viability and scalability. Explore ways to test product ideas with concept testing, prototype testing and other methods. Learn how to gather product requirements and translate them to user stories on software tools like JIRA.",
-        "Driving Product Growth: Understand the basic principles of growth from a business and product lens. Gain insights into key growth drivers for features/products (Acquisition, Activation, Retention, Referrals, Monetization, Experimentation).Explore the different stages of company/product growth and understand the concepts of Minimum Viable Product (MVP), Minimum Viable tests and Product Market fit. Learn about Product Led Growth strategies and frameworks for consumer and enterprise products and how these can work with Sales led Growth strategies.",
-        "Designing and Building a Prototype: Master the creation of user flow diagrams and wireframes to visualize and communicate product designs effectively. Learn how to use tools like Whimsical, Balsamiq and Figma for creating user flows and wireframes. Learn how to apply psychological principles to product design and development. Study UX principles to create intuitive and user-friendly products.",
-        "Metrics, Analysis Techniques and Experimentation: Learn the foundational concept of metrics. Learn about various types of metrics, such as success, failure, leading and lagging metrics. Understand the significance of each metric type and how they can be utilised in product management. Understand how metrics are tracked in analytics tools like Google Analytics, Amplitude and more. Learn how to design A/B experiments and how to measure success or failure of experiments with tools like Statsig.",
-        "Tech 101 and System Design: Understand the underlying architecture of the internet, including protocols, servers, browsers, web applications as well as the unique considerations associated with launching products on web and mobile platforms. Comprehend the role of APIs in connecting and exchanging data between software applications, their importance in product integrations and scalability, and dive deeper into API concepts such as error codes and data handling. Get started with systems-level thinking and gain insight into the way Product Managers think holistically about products. Learn these concepts of system design by analysing the LinkedIn feed and how a single page application works.",
-        "LLMs & Prompt Engineering: Understand the fundamentals of machine learning and provides an understanding of large language models (LLMs). It explores prompt engineering techniques and explains core concepts such as tokens, temperature, and context windows.",
-        "RAGs & AI Workflows: Learm how to use embeddings and vector databases, along with strategies for chunking information. It also focuses on designing end-to-end AI workflows and integrating triggers, conditions, and webhooks for automation.",
-        "AI Agents & AI Evals: Learn about agent frameworks and multi-agent systems. It emphasizes techniques for monitoring and evaluating agent performance, and introduces prompt testing frameworks for systematic evaluation.",
-        "Data Deep Dive: Learn SQL through our SQL playground and practice writing SQL queries. Learn about selection commands, aggregate functions and JOINs. Understand popular analysis techniques like cohort analysis and funnel analysis and how they are used in the real world for customer segmentation problems.",
-        "Portfolio Building, Interview Preparation and Graduation Project: Build a product portfolio to showcase your product skills by working on real-life projects, Learn in Public Challenges and case studies. Learn strategies on how to tackle different product manager interview questions like Guesstimates, Root Cause Analysis, Product Design, Product Strategy and Go To Market questions. Practise mock interviews with mentors and peers to sharpen your interviewing skills and receive personalised feedback.Master behavioural aspects of product interviews and practice using our proprietary AI interview tool. Work on a real-life problem statement for your graduation project over 3 weeks. Get access to 1 year of Placement Support by becoming a Top Fellow.",
-        "Effective Communication for Product Managers: Learn how to write product notes and Product Requirements Documents (PRDs). Learn the essential components of effective PRDs.Understand the role of PRDs in product development and communication. Practice creating comprehensive and concise PRDs for various product scenarios. Understand how product roadmaps and OKRs are created in the real world."
-      ],
-      "curriculum_text": "Mapping Business Outcomes to Product Outcomes: Learn first principles thinking and how to adopt a systems thinking approach while solving problems. Learn about business models, key business outcomes and how to map them to product outcomes using KPI trees. Understand the design thinking process and learn to break down complex problems into manageable components. Product Discovery and User Research: Identify the right problems and their business impact. Understand the Outcomes, Opportunities, Solutions approach to solving product management problems and learn how to map product outcomes to opportunities that can drive business impact. Identify user problems, needs, JTBDs, and personas. Leverage user personas and empathy maps to better understand users' needs and motivations. Problem Framing, Ideation and Validation: Learn how to pick the right problems that deliver significant business impact. Learn techniques like the Problem Framing Canvas, Mindmaps, Hypotheses testing to prioritise product problems. Understand how to evaluate potential solutions around the product risks of value, usability, feasibility, viability and scalability. Explore ways to test product ideas with concept testing, prototype testing and other methods. Learn how to gather product requirements and translate them to user stories on software tools like JIRA. Driving Product Growth: Understand the basic principles of growth from a business and product lens. Gain insights into key growth drivers for features/products (Acquisition, Activation, Retention, Referrals, Monetization, Experimentation).Explore the different stages of company/product growth and understand the concepts of Minimum Viable Product (MVP), Minimum Viable tests and Product Market fit. Learn about Product Led Growth strategies and frameworks for consumer and enterprise products and how these can work with Sales led Growth strategies. Designing and Building a Prototype: Master the creation of user flow diagrams and wireframes to visualize and communicate product designs effectively. Learn how to use tools like Whimsical, Balsamiq and Figma for creating user flows and wireframes. Learn how to apply psychological principles to product design and development. Study UX principles to create intuitive and user-friendly products. Metrics, Analysis Techniques and Experimentation: Learn the foundational concept of metrics. Learn about various types of metrics, such as success, failure, leading and lagging metrics. Understand the significance of each metric type and how they can be utilised in product management. Understand how metrics are tracked in analytics tools like Google Analytics, Amplitude and more. Learn how to design A/B experiments and how to measure success or failure of experiments with tools like Statsig. Tech 101 and System Design: Understand the underlying architecture of the internet, including protocols, servers, browsers, web applications as well as the unique considerations associated with launching products on web and mobile platforms. Comprehend the role of APIs in connecting and exchanging data between software applications, their importance in product integrations and scalability, and dive deeper into API concepts such as error codes and data handling. Get started with systems-level thinking and gain insight into the way Product Managers think holistically about products. Learn these concepts of system design by analysing the LinkedIn feed and how a single page application works. LLMs & Prompt Engineering: Understand the fundamentals of machine learning and provides an understanding of large language models (LLMs). It explores prompt engineering techniques and explains core concepts such as tokens, temperature, and context windows. RAGs & AI Workflows: Learm how to use embeddings and vector databases, along with strategies for chunking information. It also focuses on designing end-to-end AI workflows and integrating triggers, conditions, and webhooks for automation. AI Agents & AI Evals: Learn about agent frameworks and multi-agent systems. It emphasizes techniques for monitoring and evaluating agent performance, and introduces prompt testing frameworks for systematic evaluation. Data Deep Dive: Learn SQL through our SQL playground and practice writing SQL queries. Learn about selection commands, aggregate functions and JOINs. Understand popular analysis techniques like cohort analysis and funnel analysis and how they are used in the real world for customer segmentation problems. Portfolio Building, Interview Preparation and Graduation Project: Build a product portfolio to showcase your product skills by working on real-life projects, Learn in Public Challenges and case studies. Learn strategies on how to tackle different product manager interview questions like Guesstimates, Root Cause Analysis, Product Design, Product Strategy and Go To Market questions. Practise mock interviews with mentors and peers to sharpen your interviewing skills and receive personalised feedback.Master behavioural aspects of product interviews and practice using our proprietary AI interview tool. Work on a real-life problem statement for your graduation project over 3 weeks. Get access to 1 year of Placement Support by becoming a Top Fellow. Effective Communication for Product Managers: Learn how to write product notes and Product Requirements Documents (PRDs). Learn the essential components of effective PRDs.Understand the role of PRDs in product development and communication. Practice creating comprehensive and concise PRDs for various product scenarios. Understand how product roadmaps and OKRs are created in the real world.",
-      "source_url": "https://nextleap.app/course/product-management-course"
-    },
-    "mentors_instructors": {
-      "mentors": [
-        "Arindam Mukherjee",
-        "Prashanth Bhaskar",
-        "Eshan Tiwari",
-        "Venkatesh Gupta",
-        "Saksham Arora",
-        "Shailesh Sharma",
-        "Ishaan Sanji",
-        "Kartik Singh"
-      ],
-      "instructors": [
-        "Arindam Mukherjee",
-        "Prashanth Bhaskar",
-        "Kartik  Singh",
-        "Ishaan Sanji",
-        "Eshan Tiwari",
-        "Venkatesh  Gupta",
-        "Shailesh  Sharma",
-        "Saksham  Arora"
-      ],
-      "mentors_text": "Arindam Mukherjee, Prashanth Bhaskar, Kartik Singh, Ishaan Sanji, Eshan Tiwari, Venkatesh Gupta, Shailesh Sharma, Saksham Arora",
-      "source_url": "https://nextleap.app/course/product-management-course"
-    },
-    "placements": {
-      "placement_info": null,
-      "placement_text": null,
-      "source_url": "https://nextleap.app/course/product-management-course"
-    },
-    "reviews": {
-      "reviews": [
-        "NextLeap has helped 1000+ learners transition into successful product management careers. Hear from our graduates:",
-        "\"This 16 week journey has been nothing short of extraordinary. From diving deep into product strategy to honing my problem-solving skills and mastering the art of effective communication, every moment has been a stepping stone towards personal and professional growth.\" — Vanshika Rajput (transitioned from a Fresher to an Associate Product Manager at Secure Layer 7)",
-        "\"The fellowship was rigorous yet a very rewarding experience. It made learning an exciting process which I looked forward to every week and I learned so much about the fundamentals of product management. I had the opportunity to learn from industry experts and work on real-world case studies.\" — Gaurang Beli (transitioned from a Business Analyst to Associate Product Manager at Lendbox)",
-        "“Enrolling in Nextleap’s Product Manager Fellowship has truly been one of the best decisions I’ve made in my career journey. The guidance and teachings have been invaluable throughout the program, and I am deeply grateful for the placement support you provided in helping me land product roles. The team’s dedication and genuine commitment to student success make Nextleap the most authentic and trustworthy edtech company I have encountered.” – Geetika Aggarwal (transitioned from a microbiologist to an Associate Product Manager role at F22 Labs)",
-        "“Overall, I had a great experience with NextLeap. They offer a structured learning format where you don’t have to gather resources yourself, everything you need is conveniently available in one place. They focus on teaching the most relevant and in-demand topics in product management, so you don’t get overwhelmed by unnecessary details. I really appreciated this streamlined approach. The mentors are also excellent, providing valuable guidance throughout. Additionally, the job assistance provided by NextLeap is solid, if you complete the program successfully, they offer strong placement support. This is undoubtedly the best product management course in the market” – Satyanarayan Panda (landed a Product Manager role at Healthletic Lifestyle)",
-        "“I had a really fulfilling experience with NextLeap. What stood out to me was how well-structured the entire program was. Unlike many other courses where you have to figure things out yourself, NextLeap provides everything you need in one place—well-organized resources, live sessions, and hands-on projects that make learning easier and more practical. The curriculum is thoughtfully designed to cover only the most relevant and in-demand product management skills. The mentors were another highlight of the program. They brought real-world experience to the table and were always approachable for guidance or feedback. Their insights made a huge difference in how I approached problems and thought about product thinking. Lastly, the job assistance is genuinely strong. If you’re serious about the program and complete it properly, the placement support team does a great job connecting you with real opportunities. Overall, I’d highly recommend NextLeap to anyone who wants a clear, guided path into product management with strong mentorship and career support.” – Danwantari Sri Satya Sai (landed a Product Analyst role at Darwinbox)",
-        "“As someone from a non-tech background, I was initially unsure about how to break into product management. But NextLeap made the journey structured, practical, and inspiring. The program stands out for its industry-relevant curriculum, hands-on projects like product teardowns, PRDs, and mock interviews, and mentorship from experienced product leaders. The community is one of the most active and supportive I've seen — you’re constantly learning from peers, mentors, and alumni. One of the biggest value-adds for me was the “Learn in Public” challenge, which helped me improve my written communication and build a portfolio. I also gained clarity on how to structure my thought process, use tools like Jira, Figma, SQL, and communicate user-first solutions confidently. If you're serious about becoming a product manager and want a guided, immersive experience, I highly recommend NextLeap – it is one of the best product management courses out there.” – Sarthak Kakar (landed a product internship role at Bookchor.com)",
-        "Read More Product Management Success Stories"
-      ],
-      "reviews_text": "NextLeap has helped 1000+ learners transition into successful product management careers. Hear from our graduates: \"This 16 week journey has been nothing short of extraordinary. From diving deep into product strategy to honing my problem-solving skills and mastering the art of effective communication, every moment has been a stepping stone towards personal and professional growth.\" — Vanshika Rajput (transitioned from a Fresher to an Associate Product Manager at Secure Layer 7) \"The fellowship was rigorous yet a very rewarding experience. It made learning an exciting process which I looked forward to every week and I learned so much about the fundamentals of product management. I had the opportunity to learn from industry experts and work on real-world case studies.\" — Gaurang Beli (transitioned from a Business Analyst to Associate Product Manager at Lendbox) “Enrolling in Nextleap’s Product Manager Fellowship has truly been one of the best decisions I’ve made in my career journey. The guidance and teachings have been invaluable throughout the program, and I am deeply grateful for the placement support you provided in helping me land product roles. The team’s dedication and genuine commitment to student success make Nextleap the most authentic and trustworthy edtech company I have encountered.” – Geetika Aggarwal (transitioned from a microbiologist to an Associate Product Manager role at F22 Labs) “Overall, I had a great experience with NextLeap. They offer a structured learning format where you don’t have to gather resources yourself, everything you need is conveniently available in one place. They focus on teaching the most relevant and in-demand topics in product management, so you don’t get overwhelmed by unnecessary details. I really appreciated this streamlined approach. The mentors are also excellent, providing valuable guidance throughout. Additionally, the job assistance provided by NextLeap is solid, if you complete the program successfully, they offer strong placement support. This is undoubtedly the best product management course in the market” – Satyanarayan Panda (landed a Product Manager role at Healthletic Lifestyle) “I had a really fulfilling experience with NextLeap. What stood out to me was how well-structured the entire program was. Unlike many other courses where you have to figure things out yourself, NextLeap provides everything you need in one place—well-organized resources, live sessions, and hands-on projects that make learning easier and more practical. The curriculum is thoughtfully designed to cover only the most relevant and in-demand product management skills. The mentors were another highlight of the program. They brought real-world experience to the table and were always approachable for guidance or feedback. Their insights made a huge difference in how I approached problems and thought about product thinking. Lastly, the job assistance is genuinely strong. If you’re serious about the program and complete it properly, the placement support team does a great job connecting you with real opportunities. Overall, I’d highly recommend NextLeap to anyone who wants a clear, guided path into product management with strong mentorship and career support.” – Danwantari Sri Satya Sai (landed a Product Analyst role at Darwinbox) “As someone from a non-tech background, I was initially unsure about how to break into product management. But NextLeap made the journey structured, practical, and inspiring. The program stands out for its industry-relevant curriculum, hands-on projects like product teardowns, PRDs, and mock interviews, and mentorship from experienced product leaders. The community is one of the most active and supportive I've seen — you’re constantly learning from peers, mentors, and alumni. One of the biggest value-adds for me was the “Learn in Public” challenge, which helped me improve my written communication and build a portfolio. I also gained clarity on how to structure my thought process, use tools like Jira, Figma, SQL, and communicate user-first solutions confidently. If you're serious about becoming a product manager and want a guided, immersive experience, I highly recommend NextLeap – it is one of the best product management courses out there.” – Sarthak Kakar (landed a product internship role at Bookchor.com) Read More Product Management Success Stories",
-      "source_url": "https://nextleap.app/course/product-management-course"
-    }
-  },
-  {
-    "scraped_at": "2025-12-01T18:27:15.592152",
-    "source_url": "https://nextleap.app/course/data-analyst-course",
-    "cohort": {
-      "cohort_name": "Data Analyst Certification Course",
-      "cohort_description": "Structured learning, live classes and personalised feedback to kickstart your data analyst/business analyst career. Join the NextLeap Data Analyst Fellowship!",
-      "source_url": "https://nextleap.app/course/data-analyst-course"
-    },
-    "batch": {
-      "batch_start_date": null,
-      "cost": "49,999",
-      "course_type": "live",
-      "source_url": "https://nextleap.app/course/data-analyst-course"
-    },
-    "payment_options": {
-      "emi_options": [
-        "₹469/month"
-      ],
-      "payment_options": [],
-      "source_url": "https://nextleap.app/course/data-analyst-course"
-    },
-    "curriculum": {
-      "curriculum": [
-        "Introduction to Data Analytics: Understanding Types of Data. Metrics & types of analysis. Steps in exploratory data analysis. Introduction to data visualisation",
-        "Data Preparation using Excel: Basic Functions & Shortcuts. Data Formatting Techniques. Data Cleaning Techniques. Data Protection & Error Validation",
-        "Data Analysis using Excel: Lookup & Merging Techniques. PivotTable & Grouping. Conditional Formatting. Scenario and Sensitivity Analysis",
-        "Data Visualisation using Excel: Charts and Visualization Techniques. Data Visualisation Best Practices. Pivot Charts. Building interactive Dashboards",
-        "Data Analysis using SQL: Introduction to Database. Selection, Filtering & Ordering. Data Types, Operators and functions. Aggregate and Group By commands",
-        "Data Manipulation with SQL: Conditional and Case Statements. Working with date/timestamps. Joins. Subqueries",
-        "Advanced Data Manipulation with SQL: Common Table Expression (CTE). Window functions in SQL. SET operators",
-        "Data Preparation & Exploration with Tableau: Loading Data on Tableau. Data Cleaning & Preparation Techniques. Aggregation and Logical Functions. Filters & Analytics in Tableau",
-        "Data Visualisation with Tableau: Understanding Chart Types. Creating Charts in Tableau. LOD and Calculated Fields. Creating Dashboards & Stories",
-        "Introduction to Python: Python Environment setup. Programming Fundamentals. Data Types. Strings, Sets, Tuples & List",
-        "Programming in Python: Dictionaries. Conditional Statements. Loop and Control Flow. Functions",
-        "Data Analysis using Python: Mathematical Computing using Numpy. Data Manipulation using Pandas. Exploratory Data Analysis using Pandas. Confirmatory Data Analysis in Python",
-        "Data Visualisation using Python: Introduction to Python Libraries. Creating plots with Matplotlib. Visualisation using Seaborn. Interactive Visualisation with Plotly",
-        "Interview Prep & Portfolio Building: Interview Preparation. Resume Building. Portfolio Building. Graduation Test & Projects",
-        "Descriptive and Inferential statistics: Z-score. Central Limit Theorem, p-value. Hypothesis testing. Power analysis",
-        "Database Design with SQL: Understanding Data Storage concepts. Data Modeling & Schema Design. Normalisation & denormalization. Working with Views",
-        "Data Storytelling for Analysts: Data storytelling. Chart Types. Trend Visualisation"
-      ],
-      "curriculum_text": "Introduction to Data Analytics: Understanding Types of Data. Metrics & types of analysis. Steps in exploratory data analysis. Introduction to data visualisation Data Preparation using Excel: Basic Functions & Shortcuts. Data Formatting Techniques. Data Cleaning Techniques. Data Protection & Error Validation Data Analysis using Excel: Lookup & Merging Techniques. PivotTable & Grouping. Conditional Formatting. Scenario and Sensitivity Analysis Data Visualisation using Excel: Charts and Visualization Techniques. Data Visualisation Best Practices. Pivot Charts. Building interactive Dashboards Data Analysis using SQL: Introduction to Database. Selection, Filtering & Ordering. Data Types, Operators and functions. Aggregate and Group By commands Data Manipulation with SQL: Conditional and Case Statements. Working with date/timestamps. Joins. Subqueries Advanced Data Manipulation with SQL: Common Table Expression (CTE). Window functions in SQL. SET operators Data Preparation & Exploration with Tableau: Loading Data on Tableau. Data Cleaning & Preparation Techniques. Aggregation and Logical Functions. Filters & Analytics in Tableau Data Visualisation with Tableau: Understanding Chart Types. Creating Charts in Tableau. LOD and Calculated Fields. Creating Dashboards & Stories Introduction to Python: Python Environment setup. Programming Fundamentals. Data Types. Strings, Sets, Tuples & List Programming in Python: Dictionaries. Conditional Statements. Loop and Control Flow. Functions Data Analysis using Python: Mathematical Computing using Numpy. Data Manipulation using Pandas. Exploratory Data Analysis using Pandas. Confirmatory Data Analysis in Python Data Visualisation using Python: Introduction to Python Libraries. Creating plots with Matplotlib. Visualisation using Seaborn. Interactive Visualisation with Plotly Interview Prep & Portfolio Building: Interview Preparation. Resume Building. Portfolio Building. Graduation Test & Projects Descriptive and Inferential statistics: Z-score. Central Limit Theorem, p-value. Hypothesis testing. Power analysis Database Design with SQL: Understanding Data Storage concepts. Data Modeling & Schema Design. Normalisation & denormalization. Working with Views Data Storytelling for Analysts: Data storytelling. Chart Types. Trend Visualisation",
-      "source_url": "https://nextleap.app/course/data-analyst-course"
-    },
-    "mentors_instructors": {
-      "mentors": [
-        "Sahil Agarwal",
-        "Sumit Shukla",
-        "Rishav Kumar",
-        "Akash Garg",
-        "Navdeep Singh",
-        "Shashank Mittal",
-        "Saksham Arora"
-      ],
-      "instructors": [
-        "Sahil Agarwal",
-        "Sumit Shukla",
-        "Rishav Kumar",
-        "Akash Garg",
-        "Saksham  Arora",
-        "Shashank Mittal",
-        "Navdeep Singh"
-      ],
-      "mentors_text": "Sahil Agarwal, Sumit Shukla, Rishav Kumar, Akash Garg, Saksham Arora, Shashank Mittal, Navdeep Singh",
-      "source_url": "https://nextleap.app/course/data-analyst-course"
-    },
-    "placements": {
-      "placement_info": [
-        "Landing your dream data analyst or business analyst job is our priority. Our placement support includes:",
-        "Resume and LinkedIn Optimization:Craft a winning resume and LinkedIn profile that highlights your strengths in data analyticsMock Interviews:Prepare with industry-relevant data analyst and business analyst interview questionsInterview with Hiring Partners:Become a Top Fellow and tap into our network of 500+ hiring companies, including top startups and tech companies",
-        "Are you ready to harness the power of data and launch a rewarding career? The NextLeap Data Analyst Fellowship is your gateway to becoming a skilled data analyst/business analyst in today's data-driven world. Our comprehensive program combines cutting-edge curriculum, hands-on projects, and placement support to set you up for success in the booming field of data analytics."
-      ],
-      "placement_text": "Landing your dream data analyst or business analyst job is our priority. Our placement support includes: Resume and LinkedIn Optimization:Craft a winning resume and LinkedIn profile that highlights your strengths in data analyticsMock Interviews:Prepare with industry-relevant data analyst and business analyst interview questionsInterview with Hiring Partners:Become a Top Fellow and tap into our network of 500+ hiring companies, including top startups and tech companies Are you ready to harness the power of data and launch a rewarding career? The NextLeap Data Analyst Fellowship is your gateway to becoming a skilled data analyst/business analyst in today's data-driven world. Our comprehensive program combines cutting-edge curriculum, hands-on projects, and placement support to set you up for success in the booming field of data analytics.",
-      "source_url": "https://nextleap.app/course/data-analyst-course"
-    },
-    "reviews": {
-      "reviews": [],
-      "reviews_text": null,
-      "source_url": "https://nextleap.app/course/data-analyst-course"
-    }
-  },
-  {
-    "scraped_at": "2025-12-01T18:27:16.679388",
+    "scraped_at": "2025-12-01T19:48:32.840735",
     "source_url": "https://nextleap.app/course/business-analyst-course",
     "cohort": {
       "cohort_name": "Business Analyst Certification Course",
@@ -298,14 +48,14 @@
     },
     "mentors_instructors": {
       "mentors": [
-        "Arindam Mukherjee",
-        "Yash Pratyush Sinha",
         "Sahil Agarwal",
         "Rishav Kumar",
-        "Himanshu Agarwal",
+        "Arindam Mukherjee",
         "Navdeep Singh",
         "Varun Talikoti",
-        "Saksham Arora"
+        "Saksham Arora",
+        "Yash Pratyush Sinha",
+        "Himanshu Agarwal"
       ],
       "instructors": [
         "Arindam Mukherjee",
@@ -335,6 +85,256 @@
       ],
       "reviews_text": "NextLeap has helped 1000+ learners transition into successful careers. Hear from our graduates: “The Fellowship was a great experience! The content and practice questions built strong subject knowledge, but what truly stood out was the community and mentorship from industry professionals actually working in data roles. The instructors were practicing analysts, making the learning highly relevant. Support through Discord, engaging case hours, and milestone projects helped me apply skills to real-world problems—and added real value to my resume and LinkedIn. For the mentorship, community, and hands-on projects alone, the Fellowship is well worth the time and investment!” — Rahul Ganesh Regalla (transitioned from an IT Analyst at Cognizant to a Data Analyst at Optimo Capital) “Thrilled to share that I’ve been recognized as a Top Fellow in the Data Analyst Fellowship at NextLeap! It’s been an incredible journey of learning and growth—sharpening my skills in Excel, SQL, Tableau, and Python, and solving real-world data problems along the way. Grateful for all the support, and excited to apply these learnings to new challenges ahead! Here’s to more insights, impact, and opportunities!” — Ravi Kumar (transitioned from a Fresher to Pricing Analyst at Redbus) “Thrilled to share that I’ve completed the NextLeap Data Analyst Fellowship—and was recognized as a Top Fellow! From mastering SQL, Python, Tableau, and Excel to solving real-world problems, this journey has been incredibly rewarding. For my capstone, I built a rule-based insurance premium pricing model using customer segmentation, financial data, and behavioral insights—delivering actionable, ML-free pricing strategies. Big thanks to the amazing mentors, peers, and the NextLeap team for all the support!” – Aboli Saraf (transitioned from a QC to a Data Analyst role at Norstella) Read More Business Analyst Success Stories",
       "source_url": "https://nextleap.app/course/business-analyst-course"
+    }
+  },
+  {
+    "scraped_at": "2025-12-01T19:48:33.953273",
+    "source_url": "https://nextleap.app/course/product-management-course",
+    "cohort": {
+      "cohort_name": "Product Management Certification Course",
+      "cohort_description": "This Product Management course helps working professionals and fresh graduates switch to product management jobs by providing structured learning via live classes, guidance from mentors, mock interviews, portfolio preparation and 1 year Placement support",
+      "source_url": "https://nextleap.app/course/product-management-course"
+    },
+    "batch": {
+      "batch_start_date": null,
+      "cost": "49,999",
+      "course_type": "live",
+      "source_url": "https://nextleap.app/course/product-management-course"
+    },
+    "payment_options": {
+      "emi_options": [
+        "₹322/month"
+      ],
+      "payment_options": [],
+      "source_url": "https://nextleap.app/course/product-management-course"
+    },
+    "curriculum": {
+      "curriculum": [
+        "Mapping Business Outcomes to Product Outcomes: Learn first principles thinking and how to adopt a systems thinking approach while solving problems. Learn about business models, key business outcomes and how to map them to product outcomes using KPI trees. Understand the design thinking process and learn to break down complex problems into manageable components.",
+        "Product Discovery and User Research: Identify the right problems and their business impact. Understand the Outcomes, Opportunities, Solutions approach to solving product management problems and learn how to map product outcomes to opportunities that can drive business impact. Identify user problems, needs, JTBDs, and personas. Leverage user personas and empathy maps to better understand users' needs and motivations.",
+        "Problem Framing, Ideation and Validation: Learn how to pick the right problems that deliver significant business impact. Learn techniques like the Problem Framing Canvas, Mindmaps, Hypotheses testing to prioritise product problems. Understand how to evaluate potential solutions around the product risks of value, usability, feasibility, viability and scalability. Explore ways to test product ideas with concept testing, prototype testing and other methods. Learn how to gather product requirements and translate them to user stories on software tools like JIRA.",
+        "Driving Product Growth: Understand the basic principles of growth from a business and product lens. Gain insights into key growth drivers for features/products (Acquisition, Activation, Retention, Referrals, Monetization, Experimentation).Explore the different stages of company/product growth and understand the concepts of Minimum Viable Product (MVP), Minimum Viable tests and Product Market fit. Learn about Product Led Growth strategies and frameworks for consumer and enterprise products and how these can work with Sales led Growth strategies.",
+        "Designing and Building a Prototype: Master the creation of user flow diagrams and wireframes to visualize and communicate product designs effectively. Learn how to use tools like Whimsical, Balsamiq and Figma for creating user flows and wireframes. Learn how to apply psychological principles to product design and development. Study UX principles to create intuitive and user-friendly products.",
+        "Metrics, Analysis Techniques and Experimentation: Learn the foundational concept of metrics. Learn about various types of metrics, such as success, failure, leading and lagging metrics. Understand the significance of each metric type and how they can be utilised in product management. Understand how metrics are tracked in analytics tools like Google Analytics, Amplitude and more. Learn how to design A/B experiments and how to measure success or failure of experiments with tools like Statsig.",
+        "Tech 101 and System Design: Understand the underlying architecture of the internet, including protocols, servers, browsers, web applications as well as the unique considerations associated with launching products on web and mobile platforms. Comprehend the role of APIs in connecting and exchanging data between software applications, their importance in product integrations and scalability, and dive deeper into API concepts such as error codes and data handling. Get started with systems-level thinking and gain insight into the way Product Managers think holistically about products. Learn these concepts of system design by analysing the LinkedIn feed and how a single page application works.",
+        "LLMs & Prompt Engineering: Understand the fundamentals of machine learning and provides an understanding of large language models (LLMs). It explores prompt engineering techniques and explains core concepts such as tokens, temperature, and context windows.",
+        "RAGs & AI Workflows: Learm how to use embeddings and vector databases, along with strategies for chunking information. It also focuses on designing end-to-end AI workflows and integrating triggers, conditions, and webhooks for automation.",
+        "AI Agents & AI Evals: Learn about agent frameworks and multi-agent systems. It emphasizes techniques for monitoring and evaluating agent performance, and introduces prompt testing frameworks for systematic evaluation.",
+        "Data Deep Dive: Learn SQL through our SQL playground and practice writing SQL queries. Learn about selection commands, aggregate functions and JOINs. Understand popular analysis techniques like cohort analysis and funnel analysis and how they are used in the real world for customer segmentation problems.",
+        "Portfolio Building, Interview Preparation and Graduation Project: Build a product portfolio to showcase your product skills by working on real-life projects, Learn in Public Challenges and case studies. Learn strategies on how to tackle different product manager interview questions like Guesstimates, Root Cause Analysis, Product Design, Product Strategy and Go To Market questions. Practise mock interviews with mentors and peers to sharpen your interviewing skills and receive personalised feedback.Master behavioural aspects of product interviews and practice using our proprietary AI interview tool. Work on a real-life problem statement for your graduation project over 3 weeks. Get access to 1 year of Placement Support by becoming a Top Fellow.",
+        "Effective Communication for Product Managers: Learn how to write product notes and Product Requirements Documents (PRDs). Learn the essential components of effective PRDs.Understand the role of PRDs in product development and communication. Practice creating comprehensive and concise PRDs for various product scenarios. Understand how product roadmaps and OKRs are created in the real world."
+      ],
+      "curriculum_text": "Mapping Business Outcomes to Product Outcomes: Learn first principles thinking and how to adopt a systems thinking approach while solving problems. Learn about business models, key business outcomes and how to map them to product outcomes using KPI trees. Understand the design thinking process and learn to break down complex problems into manageable components. Product Discovery and User Research: Identify the right problems and their business impact. Understand the Outcomes, Opportunities, Solutions approach to solving product management problems and learn how to map product outcomes to opportunities that can drive business impact. Identify user problems, needs, JTBDs, and personas. Leverage user personas and empathy maps to better understand users' needs and motivations. Problem Framing, Ideation and Validation: Learn how to pick the right problems that deliver significant business impact. Learn techniques like the Problem Framing Canvas, Mindmaps, Hypotheses testing to prioritise product problems. Understand how to evaluate potential solutions around the product risks of value, usability, feasibility, viability and scalability. Explore ways to test product ideas with concept testing, prototype testing and other methods. Learn how to gather product requirements and translate them to user stories on software tools like JIRA. Driving Product Growth: Understand the basic principles of growth from a business and product lens. Gain insights into key growth drivers for features/products (Acquisition, Activation, Retention, Referrals, Monetization, Experimentation).Explore the different stages of company/product growth and understand the concepts of Minimum Viable Product (MVP), Minimum Viable tests and Product Market fit. Learn about Product Led Growth strategies and frameworks for consumer and enterprise products and how these can work with Sales led Growth strategies. Designing and Building a Prototype: Master the creation of user flow diagrams and wireframes to visualize and communicate product designs effectively. Learn how to use tools like Whimsical, Balsamiq and Figma for creating user flows and wireframes. Learn how to apply psychological principles to product design and development. Study UX principles to create intuitive and user-friendly products. Metrics, Analysis Techniques and Experimentation: Learn the foundational concept of metrics. Learn about various types of metrics, such as success, failure, leading and lagging metrics. Understand the significance of each metric type and how they can be utilised in product management. Understand how metrics are tracked in analytics tools like Google Analytics, Amplitude and more. Learn how to design A/B experiments and how to measure success or failure of experiments with tools like Statsig. Tech 101 and System Design: Understand the underlying architecture of the internet, including protocols, servers, browsers, web applications as well as the unique considerations associated with launching products on web and mobile platforms. Comprehend the role of APIs in connecting and exchanging data between software applications, their importance in product integrations and scalability, and dive deeper into API concepts such as error codes and data handling. Get started with systems-level thinking and gain insight into the way Product Managers think holistically about products. Learn these concepts of system design by analysing the LinkedIn feed and how a single page application works. LLMs & Prompt Engineering: Understand the fundamentals of machine learning and provides an understanding of large language models (LLMs). It explores prompt engineering techniques and explains core concepts such as tokens, temperature, and context windows. RAGs & AI Workflows: Learm how to use embeddings and vector databases, along with strategies for chunking information. It also focuses on designing end-to-end AI workflows and integrating triggers, conditions, and webhooks for automation. AI Agents & AI Evals: Learn about agent frameworks and multi-agent systems. It emphasizes techniques for monitoring and evaluating agent performance, and introduces prompt testing frameworks for systematic evaluation. Data Deep Dive: Learn SQL through our SQL playground and practice writing SQL queries. Learn about selection commands, aggregate functions and JOINs. Understand popular analysis techniques like cohort analysis and funnel analysis and how they are used in the real world for customer segmentation problems. Portfolio Building, Interview Preparation and Graduation Project: Build a product portfolio to showcase your product skills by working on real-life projects, Learn in Public Challenges and case studies. Learn strategies on how to tackle different product manager interview questions like Guesstimates, Root Cause Analysis, Product Design, Product Strategy and Go To Market questions. Practise mock interviews with mentors and peers to sharpen your interviewing skills and receive personalised feedback.Master behavioural aspects of product interviews and practice using our proprietary AI interview tool. Work on a real-life problem statement for your graduation project over 3 weeks. Get access to 1 year of Placement Support by becoming a Top Fellow. Effective Communication for Product Managers: Learn how to write product notes and Product Requirements Documents (PRDs). Learn the essential components of effective PRDs.Understand the role of PRDs in product development and communication. Practice creating comprehensive and concise PRDs for various product scenarios. Understand how product roadmaps and OKRs are created in the real world.",
+      "source_url": "https://nextleap.app/course/product-management-course"
+    },
+    "mentors_instructors": {
+      "mentors": [
+        "Arindam Mukherjee",
+        "Prashanth Bhaskar",
+        "Ishaan Sanji",
+        "Saksham Arora",
+        "Eshan Tiwari",
+        "Kartik Singh",
+        "Shailesh Sharma",
+        "Venkatesh Gupta"
+      ],
+      "instructors": [
+        "Arindam Mukherjee",
+        "Prashanth Bhaskar",
+        "Kartik  Singh",
+        "Ishaan Sanji",
+        "Eshan Tiwari",
+        "Venkatesh  Gupta",
+        "Shailesh  Sharma",
+        "Saksham  Arora"
+      ],
+      "mentors_text": "Arindam Mukherjee, Prashanth Bhaskar, Kartik Singh, Ishaan Sanji, Eshan Tiwari, Venkatesh Gupta, Shailesh Sharma, Saksham Arora",
+      "source_url": "https://nextleap.app/course/product-management-course"
+    },
+    "placements": {
+      "placement_info": null,
+      "placement_text": null,
+      "source_url": "https://nextleap.app/course/product-management-course"
+    },
+    "reviews": {
+      "reviews": [
+        "NextLeap has helped 1000+ learners transition into successful product management careers. Hear from our graduates:",
+        "\"This 16 week journey has been nothing short of extraordinary. From diving deep into product strategy to honing my problem-solving skills and mastering the art of effective communication, every moment has been a stepping stone towards personal and professional growth.\" — Vanshika Rajput (transitioned from a Fresher to an Associate Product Manager at Secure Layer 7)",
+        "\"The fellowship was rigorous yet a very rewarding experience. It made learning an exciting process which I looked forward to every week and I learned so much about the fundamentals of product management. I had the opportunity to learn from industry experts and work on real-world case studies.\" — Gaurang Beli (transitioned from a Business Analyst to Associate Product Manager at Lendbox)",
+        "“Enrolling in Nextleap’s Product Manager Fellowship has truly been one of the best decisions I’ve made in my career journey. The guidance and teachings have been invaluable throughout the program, and I am deeply grateful for the placement support you provided in helping me land product roles. The team’s dedication and genuine commitment to student success make Nextleap the most authentic and trustworthy edtech company I have encountered.” – Geetika Aggarwal (transitioned from a microbiologist to an Associate Product Manager role at F22 Labs)",
+        "“Overall, I had a great experience with NextLeap. They offer a structured learning format where you don’t have to gather resources yourself, everything you need is conveniently available in one place. They focus on teaching the most relevant and in-demand topics in product management, so you don’t get overwhelmed by unnecessary details. I really appreciated this streamlined approach. The mentors are also excellent, providing valuable guidance throughout. Additionally, the job assistance provided by NextLeap is solid, if you complete the program successfully, they offer strong placement support. This is undoubtedly the best product management course in the market” – Satyanarayan Panda (landed a Product Manager role at Healthletic Lifestyle)",
+        "“I had a really fulfilling experience with NextLeap. What stood out to me was how well-structured the entire program was. Unlike many other courses where you have to figure things out yourself, NextLeap provides everything you need in one place—well-organized resources, live sessions, and hands-on projects that make learning easier and more practical. The curriculum is thoughtfully designed to cover only the most relevant and in-demand product management skills. The mentors were another highlight of the program. They brought real-world experience to the table and were always approachable for guidance or feedback. Their insights made a huge difference in how I approached problems and thought about product thinking. Lastly, the job assistance is genuinely strong. If you’re serious about the program and complete it properly, the placement support team does a great job connecting you with real opportunities. Overall, I’d highly recommend NextLeap to anyone who wants a clear, guided path into product management with strong mentorship and career support.” – Danwantari Sri Satya Sai (landed a Product Analyst role at Darwinbox)",
+        "“As someone from a non-tech background, I was initially unsure about how to break into product management. But NextLeap made the journey structured, practical, and inspiring. The program stands out for its industry-relevant curriculum, hands-on projects like product teardowns, PRDs, and mock interviews, and mentorship from experienced product leaders. The community is one of the most active and supportive I've seen — you’re constantly learning from peers, mentors, and alumni. One of the biggest value-adds for me was the “Learn in Public” challenge, which helped me improve my written communication and build a portfolio. I also gained clarity on how to structure my thought process, use tools like Jira, Figma, SQL, and communicate user-first solutions confidently. If you're serious about becoming a product manager and want a guided, immersive experience, I highly recommend NextLeap – it is one of the best product management courses out there.” – Sarthak Kakar (landed a product internship role at Bookchor.com)",
+        "Read More Product Management Success Stories"
+      ],
+      "reviews_text": "NextLeap has helped 1000+ learners transition into successful product management careers. Hear from our graduates: \"This 16 week journey has been nothing short of extraordinary. From diving deep into product strategy to honing my problem-solving skills and mastering the art of effective communication, every moment has been a stepping stone towards personal and professional growth.\" — Vanshika Rajput (transitioned from a Fresher to an Associate Product Manager at Secure Layer 7) \"The fellowship was rigorous yet a very rewarding experience. It made learning an exciting process which I looked forward to every week and I learned so much about the fundamentals of product management. I had the opportunity to learn from industry experts and work on real-world case studies.\" — Gaurang Beli (transitioned from a Business Analyst to Associate Product Manager at Lendbox) “Enrolling in Nextleap’s Product Manager Fellowship has truly been one of the best decisions I’ve made in my career journey. The guidance and teachings have been invaluable throughout the program, and I am deeply grateful for the placement support you provided in helping me land product roles. The team’s dedication and genuine commitment to student success make Nextleap the most authentic and trustworthy edtech company I have encountered.” – Geetika Aggarwal (transitioned from a microbiologist to an Associate Product Manager role at F22 Labs) “Overall, I had a great experience with NextLeap. They offer a structured learning format where you don’t have to gather resources yourself, everything you need is conveniently available in one place. They focus on teaching the most relevant and in-demand topics in product management, so you don’t get overwhelmed by unnecessary details. I really appreciated this streamlined approach. The mentors are also excellent, providing valuable guidance throughout. Additionally, the job assistance provided by NextLeap is solid, if you complete the program successfully, they offer strong placement support. This is undoubtedly the best product management course in the market” – Satyanarayan Panda (landed a Product Manager role at Healthletic Lifestyle) “I had a really fulfilling experience with NextLeap. What stood out to me was how well-structured the entire program was. Unlike many other courses where you have to figure things out yourself, NextLeap provides everything you need in one place—well-organized resources, live sessions, and hands-on projects that make learning easier and more practical. The curriculum is thoughtfully designed to cover only the most relevant and in-demand product management skills. The mentors were another highlight of the program. They brought real-world experience to the table and were always approachable for guidance or feedback. Their insights made a huge difference in how I approached problems and thought about product thinking. Lastly, the job assistance is genuinely strong. If you’re serious about the program and complete it properly, the placement support team does a great job connecting you with real opportunities. Overall, I’d highly recommend NextLeap to anyone who wants a clear, guided path into product management with strong mentorship and career support.” – Danwantari Sri Satya Sai (landed a Product Analyst role at Darwinbox) “As someone from a non-tech background, I was initially unsure about how to break into product management. But NextLeap made the journey structured, practical, and inspiring. The program stands out for its industry-relevant curriculum, hands-on projects like product teardowns, PRDs, and mock interviews, and mentorship from experienced product leaders. The community is one of the most active and supportive I've seen — you’re constantly learning from peers, mentors, and alumni. One of the biggest value-adds for me was the “Learn in Public” challenge, which helped me improve my written communication and build a portfolio. I also gained clarity on how to structure my thought process, use tools like Jira, Figma, SQL, and communicate user-first solutions confidently. If you're serious about becoming a product manager and want a guided, immersive experience, I highly recommend NextLeap – it is one of the best product management courses out there.” – Sarthak Kakar (landed a product internship role at Bookchor.com) Read More Product Management Success Stories",
+      "source_url": "https://nextleap.app/course/product-management-course"
+    }
+  },
+  {
+    "scraped_at": "2025-12-01T19:48:35.054028",
+    "source_url": "https://nextleap.app/course/ui-ux-design-course",
+    "cohort": {
+      "cohort_name": "UI UX Design Certification Course",
+      "cohort_description": "Structured learning, live classes and personalised feedback to kickstart your UI/UX Design career. Join the NextLeap Product Designer Fellowship!",
+      "source_url": "https://nextleap.app/course/ui-ux-design-course"
+    },
+    "batch": {
+      "batch_start_date": null,
+      "cost": "49,999",
+      "course_type": "live",
+      "source_url": "https://nextleap.app/course/ui-ux-design-course"
+    },
+    "payment_options": {
+      "emi_options": [
+        "₹469/month"
+      ],
+      "payment_options": [],
+      "source_url": "https://nextleap.app/course/ui-ux-design-course"
+    },
+    "curriculum": {
+      "curriculum": [
+        "Mapping Business Outcomes to Product Outcomes: Systems thinking. Understanding Business Models. KPI trees. Impact Mapping",
+        "Product Discovery & User Research: User Research Methodologies. Journey Mapping & User Personas. Hypotheses building. Problem Framing",
+        "Ideation & Validation: Mindmapping solutions. Understanding product risks. Crafting User Stories. Human Motivations",
+        "Design Psychology: Understanding human behaviours. Minimising cognitive load. Designing for trust. Conducting UX audits",
+        "Interaction Design: Crafting user flows. Designing wireframes. Information architecture. UX laws & usability heuristics",
+        "Visual Design Principles: Moodboarding. Colour Theory. Typography. Grids & layouts",
+        "Design Systems: Inclusive design practices. Design Accessibility. Atomic Design systems. Design Systems Tools",
+        "LLMs & Prompt Engineering: Basics of Machine Learning. Understanding LLMs. Prompt Engineering. Tokens, temperature, context window",
+        "Designing for AI Products: User Controls for AI products. Trust & decision making. AI error states. UI patterns in Agentic AI",
+        "Designing with AI Tools: Figma Make. Midjourney. Gemini Flash",
+        "Building a Design Portfolio: Components of a portfolio. Building a UX case study. Portfolio presentation",
+        "Building a Design Portfolio: Continue to build portfolio. Portfolio Review. Portfolio presentation",
+        "Portfolio Building & Graduation Project: Continue to build portfolio. Work on graduation project. Submit graduation project",
+        "Motion Design: Principles of Motion Design. Animation principles. Creating micro-interactions. Motion in UX",
+        "Material Design Deep Dive: Components in Android Material Design. Material Design Toolbar. Navigation View. RecyclerView and CardView"
+      ],
+      "curriculum_text": "Mapping Business Outcomes to Product Outcomes: Systems thinking. Understanding Business Models. KPI trees. Impact Mapping Product Discovery & User Research: User Research Methodologies. Journey Mapping & User Personas. Hypotheses building. Problem Framing Ideation & Validation: Mindmapping solutions. Understanding product risks. Crafting User Stories. Human Motivations Design Psychology: Understanding human behaviours. Minimising cognitive load. Designing for trust. Conducting UX audits Interaction Design: Crafting user flows. Designing wireframes. Information architecture. UX laws & usability heuristics Visual Design Principles: Moodboarding. Colour Theory. Typography. Grids & layouts Design Systems: Inclusive design practices. Design Accessibility. Atomic Design systems. Design Systems Tools LLMs & Prompt Engineering: Basics of Machine Learning. Understanding LLMs. Prompt Engineering. Tokens, temperature, context window Designing for AI Products: User Controls for AI products. Trust & decision making. AI error states. UI patterns in Agentic AI Designing with AI Tools: Figma Make. Midjourney. Gemini Flash Building a Design Portfolio: Components of a portfolio. Building a UX case study. Portfolio presentation Building a Design Portfolio: Continue to build portfolio. Portfolio Review. Portfolio presentation Portfolio Building & Graduation Project: Continue to build portfolio. Work on graduation project. Submit graduation project Motion Design: Principles of Motion Design. Animation principles. Creating micro-interactions. Motion in UX Material Design Deep Dive: Components in Android Material Design. Material Design Toolbar. Navigation View. RecyclerView and CardView",
+      "source_url": "https://nextleap.app/course/ui-ux-design-course"
+    },
+    "mentors_instructors": {
+      "mentors": [
+        "Arindam Mukherjee",
+        "Neel Raj",
+        "Ranganath Krishnamani",
+        "Kartik Singh",
+        "Sharang Sharma",
+        "Karthi Subbaraman",
+        "Binoy Cyriac",
+        "Ashutosh Vashishtha"
+      ],
+      "instructors": [
+        "Karthi Subbaraman",
+        "Kartik  Singh",
+        "Arindam Mukherjee",
+        "Ranganath Krishnamani",
+        "Ashutosh  Vashishtha",
+        "Neel Raj",
+        "Binoy Cyriac",
+        "Sharang Sharma"
+      ],
+      "mentors_text": "Karthi Subbaraman, Kartik Singh, Arindam Mukherjee, Ranganath Krishnamani, Ashutosh Vashishtha, Neel Raj, Binoy Cyriac, Sharang Sharma",
+      "source_url": "https://nextleap.app/course/ui-ux-design-course"
+    },
+    "placements": {
+      "placement_info": [
+        "At NextLeap, we are committed to helping you land a design role upon completing the course. Our placement support includes:",
+        "Resume and LinkedIn Optimization:Craft a winning resume and LinkedIn profile that highlights your strengths as a UI/UX designerMock Interviews:Prepare with industry-relevant UI/UX design interview questionsInterview with Hiring Partners:Become a Top Fellow and tap into our network of 500+ hiring companies, including top startups and tech companies"
+      ],
+      "placement_text": "At NextLeap, we are committed to helping you land a design role upon completing the course. Our placement support includes: Resume and LinkedIn Optimization:Craft a winning resume and LinkedIn profile that highlights your strengths as a UI/UX designerMock Interviews:Prepare with industry-relevant UI/UX design interview questionsInterview with Hiring Partners:Become a Top Fellow and tap into our network of 500+ hiring companies, including top startups and tech companies",
+      "source_url": "https://nextleap.app/course/ui-ux-design-course"
+    },
+    "reviews": {
+      "reviews": [
+        "NextLeap has empowered countless learners to become successful designers. Here’s what some of our graduates have to say:",
+        "\"The NextLeap UI/UX Design Course helped me transition from graphic design to product design. The real-world projects and guidance from industry mentors were crucial to my growth.\"—Chandni Karelia (transitioned from Graphic Design to UX Designer at Proshort)",
+        "\"The hands-on approach and personalized feedback allowed me to build a strong portfolio, which helped me land a product designer role at Swiggy.\"—Soham Poddar (transitioned from a fresher to a Senior Product Designer at Thokbajaar)",
+        "Read More Product Design Success Stories"
+      ],
+      "reviews_text": "NextLeap has empowered countless learners to become successful designers. Here’s what some of our graduates have to say: \"The NextLeap UI/UX Design Course helped me transition from graphic design to product design. The real-world projects and guidance from industry mentors were crucial to my growth.\"—Chandni Karelia (transitioned from Graphic Design to UX Designer at Proshort) \"The hands-on approach and personalized feedback allowed me to build a strong portfolio, which helped me land a product designer role at Swiggy.\"—Soham Poddar (transitioned from a fresher to a Senior Product Designer at Thokbajaar) Read More Product Design Success Stories",
+      "source_url": "https://nextleap.app/course/ui-ux-design-course"
+    }
+  },
+  {
+    "scraped_at": "2025-12-01T19:48:36.144420",
+    "source_url": "https://nextleap.app/course/data-analyst-course",
+    "cohort": {
+      "cohort_name": "Data Analyst Certification Course",
+      "cohort_description": "Structured learning, live classes and personalised feedback to kickstart your data analyst/business analyst career. Join the NextLeap Data Analyst Fellowship!",
+      "source_url": "https://nextleap.app/course/data-analyst-course"
+    },
+    "batch": {
+      "batch_start_date": null,
+      "cost": "49,999",
+      "course_type": "live",
+      "source_url": "https://nextleap.app/course/data-analyst-course"
+    },
+    "payment_options": {
+      "emi_options": [
+        "₹469/month"
+      ],
+      "payment_options": [],
+      "source_url": "https://nextleap.app/course/data-analyst-course"
+    },
+    "curriculum": {
+      "curriculum": [
+        "Introduction to Data Analytics: Understanding Types of Data. Metrics & types of analysis. Steps in exploratory data analysis. Introduction to data visualisation",
+        "Data Preparation using Excel: Basic Functions & Shortcuts. Data Formatting Techniques. Data Cleaning Techniques. Data Protection & Error Validation",
+        "Data Analysis using Excel: Lookup & Merging Techniques. PivotTable & Grouping. Conditional Formatting. Scenario and Sensitivity Analysis",
+        "Data Visualisation using Excel: Charts and Visualization Techniques. Data Visualisation Best Practices. Pivot Charts. Building interactive Dashboards",
+        "Data Analysis using SQL: Introduction to Database. Selection, Filtering & Ordering. Data Types, Operators and functions. Aggregate and Group By commands",
+        "Data Manipulation with SQL: Conditional and Case Statements. Working with date/timestamps. Joins. Subqueries",
+        "Advanced Data Manipulation with SQL: Common Table Expression (CTE). Window functions in SQL. SET operators",
+        "Data Preparation & Exploration with Tableau: Loading Data on Tableau. Data Cleaning & Preparation Techniques. Aggregation and Logical Functions. Filters & Analytics in Tableau",
+        "Data Visualisation with Tableau: Understanding Chart Types. Creating Charts in Tableau. LOD and Calculated Fields. Creating Dashboards & Stories",
+        "Introduction to Python: Python Environment setup. Programming Fundamentals. Data Types. Strings, Sets, Tuples & List",
+        "Programming in Python: Dictionaries. Conditional Statements. Loop and Control Flow. Functions",
+        "Data Analysis using Python: Mathematical Computing using Numpy. Data Manipulation using Pandas. Exploratory Data Analysis using Pandas. Confirmatory Data Analysis in Python",
+        "Data Visualisation using Python: Introduction to Python Libraries. Creating plots with Matplotlib. Visualisation using Seaborn. Interactive Visualisation with Plotly",
+        "Interview Prep & Portfolio Building: Interview Preparation. Resume Building. Portfolio Building. Graduation Test & Projects",
+        "Descriptive and Inferential statistics: Z-score. Central Limit Theorem, p-value. Hypothesis testing. Power analysis",
+        "Database Design with SQL: Understanding Data Storage concepts. Data Modeling & Schema Design. Normalisation & denormalization. Working with Views",
+        "Data Storytelling for Analysts: Data storytelling. Chart Types. Trend Visualisation"
+      ],
+      "curriculum_text": "Introduction to Data Analytics: Understanding Types of Data. Metrics & types of analysis. Steps in exploratory data analysis. Introduction to data visualisation Data Preparation using Excel: Basic Functions & Shortcuts. Data Formatting Techniques. Data Cleaning Techniques. Data Protection & Error Validation Data Analysis using Excel: Lookup & Merging Techniques. PivotTable & Grouping. Conditional Formatting. Scenario and Sensitivity Analysis Data Visualisation using Excel: Charts and Visualization Techniques. Data Visualisation Best Practices. Pivot Charts. Building interactive Dashboards Data Analysis using SQL: Introduction to Database. Selection, Filtering & Ordering. Data Types, Operators and functions. Aggregate and Group By commands Data Manipulation with SQL: Conditional and Case Statements. Working with date/timestamps. Joins. Subqueries Advanced Data Manipulation with SQL: Common Table Expression (CTE). Window functions in SQL. SET operators Data Preparation & Exploration with Tableau: Loading Data on Tableau. Data Cleaning & Preparation Techniques. Aggregation and Logical Functions. Filters & Analytics in Tableau Data Visualisation with Tableau: Understanding Chart Types. Creating Charts in Tableau. LOD and Calculated Fields. Creating Dashboards & Stories Introduction to Python: Python Environment setup. Programming Fundamentals. Data Types. Strings, Sets, Tuples & List Programming in Python: Dictionaries. Conditional Statements. Loop and Control Flow. Functions Data Analysis using Python: Mathematical Computing using Numpy. Data Manipulation using Pandas. Exploratory Data Analysis using Pandas. Confirmatory Data Analysis in Python Data Visualisation using Python: Introduction to Python Libraries. Creating plots with Matplotlib. Visualisation using Seaborn. Interactive Visualisation with Plotly Interview Prep & Portfolio Building: Interview Preparation. Resume Building. Portfolio Building. Graduation Test & Projects Descriptive and Inferential statistics: Z-score. Central Limit Theorem, p-value. Hypothesis testing. Power analysis Database Design with SQL: Understanding Data Storage concepts. Data Modeling & Schema Design. Normalisation & denormalization. Working with Views Data Storytelling for Analysts: Data storytelling. Chart Types. Trend Visualisation",
+      "source_url": "https://nextleap.app/course/data-analyst-course"
+    },
+    "mentors_instructors": {
+      "mentors": [
+        "Sahil Agarwal",
+        "Rishav Kumar",
+        "Navdeep Singh",
+        "Saksham Arora",
+        "Akash Garg",
+        "Sumit Shukla",
+        "Shashank Mittal"
+      ],
+      "instructors": [
+        "Sahil Agarwal",
+        "Sumit Shukla",
+        "Rishav Kumar",
+        "Akash Garg",
+        "Saksham  Arora",
+        "Shashank Mittal",
+        "Navdeep Singh"
+      ],
+      "mentors_text": "Sahil Agarwal, Sumit Shukla, Rishav Kumar, Akash Garg, Saksham Arora, Shashank Mittal, Navdeep Singh",
+      "source_url": "https://nextleap.app/course/data-analyst-course"
+    },
+    "placements": {
+      "placement_info": [
+        "Landing your dream data analyst or business analyst job is our priority. Our placement support includes:",
+        "Resume and LinkedIn Optimization:Craft a winning resume and LinkedIn profile that highlights your strengths in data analyticsMock Interviews:Prepare with industry-relevant data analyst and business analyst interview questionsInterview with Hiring Partners:Become a Top Fellow and tap into our network of 500+ hiring companies, including top startups and tech companies",
+        "Are you ready to harness the power of data and launch a rewarding career? The NextLeap Data Analyst Fellowship is your gateway to becoming a skilled data analyst/business analyst in today's data-driven world. Our comprehensive program combines cutting-edge curriculum, hands-on projects, and placement support to set you up for success in the booming field of data analytics."
+      ],
+      "placement_text": "Landing your dream data analyst or business analyst job is our priority. Our placement support includes: Resume and LinkedIn Optimization:Craft a winning resume and LinkedIn profile that highlights your strengths in data analyticsMock Interviews:Prepare with industry-relevant data analyst and business analyst interview questionsInterview with Hiring Partners:Become a Top Fellow and tap into our network of 500+ hiring companies, including top startups and tech companies Are you ready to harness the power of data and launch a rewarding career? The NextLeap Data Analyst Fellowship is your gateway to becoming a skilled data analyst/business analyst in today's data-driven world. Our comprehensive program combines cutting-edge curriculum, hands-on projects, and placement support to set you up for success in the booming field of data analytics.",
+      "source_url": "https://nextleap.app/course/data-analyst-course"
+    },
+    "reviews": {
+      "reviews": [],
+      "reviews_text": null,
+      "source_url": "https://nextleap.app/course/data-analyst-course"
     }
   }
 ]

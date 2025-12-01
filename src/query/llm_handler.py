@@ -69,6 +69,7 @@ IMPORTANT RULES:
 7. Use conversation history to understand context - if user says "the course" or "it", refer to the course from previous conversation
 8. If asked about EMI or payment options, provide ALL available EMI plans from the context
 9. Make sure to answer about the SAME course mentioned in previous conversation if user refers to "the course" or "it"
+10. CRITICAL: Answer about the course mentioned in the user's question. If the user asks about "UI UX course" or "UX/UI course", answer about UI UX Design Certification Course. If they ask about "product management", answer about Product Management Certification Course. Do NOT confuse different courses.
 
 Context from Nextleap website:
 {context_text}{history_section}
