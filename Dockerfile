@@ -13,9 +13,11 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 # Copy requirements first for better caching
 COPY requirements.txt .
 
-# Install Python dependencies
+# Install Python dependencies with optimizations
 # Use --no-cache-dir to reduce image size
+# Install CPU-only PyTorch first (saves ~2GB compared to full PyTorch)
 RUN pip install --no-cache-dir --upgrade pip && \
+    pip install --no-cache-dir torch==2.1.0+cpu --index-url https://download.pytorch.org/whl/cpu && \
     pip install --no-cache-dir -r requirements.txt
 
 # Copy application code
