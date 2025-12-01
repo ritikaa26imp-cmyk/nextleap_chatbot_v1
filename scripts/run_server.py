@@ -16,10 +16,11 @@ if len(sys.argv) > 1:
 elif os.getenv("GEMINI_API_KEY"):
     print(f"Using API key from environment variable")
 else:
-    # Use the provided API key as default
-    api_key = "AIzaSyAowbwS15xpzN2bs8Q3rGhvlQe4SN3kMSc"
-    os.environ["GEMINI_API_KEY"] = api_key
-    print(f"Using default API key")
+    # API key must be set via environment variable
+    print("ERROR: GEMINI_API_KEY environment variable is required!")
+    print("Please set it using: export GEMINI_API_KEY='your_api_key_here'")
+    print("Or create a .env file with: GEMINI_API_KEY=your_api_key_here")
+    sys.exit(1)
 
 # Import and run server
 from src.api.server import app
