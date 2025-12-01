@@ -20,9 +20,12 @@ cmds = [
 [phases.build]
 cmds = [
   "mkdir -p data/knowledge_base/chroma_db data/processed data/raw",
-  "python3 scripts/build_kb.py || echo 'Warning: Knowledge base build failed, will be created on first query'"
+  "export TRANSFORMERS_CACHE=/tmp/transformers_cache",
+  "export HF_HOME=/tmp/huggingface",
+  "export SENTENCE_TRANSFORMERS_HOME=/tmp/sentence_transformers",
+  "python3 scripts/build_kb.py || echo 'Warning: Knowledge base build failed, will be created on first query'",
+  "rm -rf /tmp/transformers_cache /tmp/huggingface /tmp/sentence_transformers /tmp/hf_datasets || true"
 ]
 
 [start]
 cmd = "uvicorn src.api.server:app --host 0.0.0.0 --port $PORT --timeout-keep-alive 30 --timeout-graceful-shutdown 30"
-
