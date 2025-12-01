@@ -3,10 +3,13 @@ FastAPI server for Nextleap FAQ chatbot
 """
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
 from pydantic import BaseModel
 from typing import Optional
 import sys
 from pathlib import Path
+import os
 
 # Add parent directory to path
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
@@ -27,9 +30,11 @@ app = FastAPI(
 )
 
 # CORS middleware - Allow frontend to access API
+# Since we're serving frontend from the same origin, CORS is less critical
+# But keep it for API-only access if needed
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # In production, specify exact frontend URL
+    allow_origins=["*"],  # In production, you can restrict this
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -160,6 +165,35 @@ async def query_get(question: str):
         )
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error processing query: {str(e)}")
+
+
+# Serve frontend static files
+frontend_path = Path(__file__).parent.parent.parent / "frontend"
+if frontend_path.exists():
+    # Mount static files (CSS, JS)
+    app.mount("/static", StaticFiles(directory=str(frontend_path)), name="static")
+    
+    # Serve index.html for root and all other routes (SPA routing)
+    @app.get("/")
+    async def serve_frontend():
+        """Serve the frontend index.html"""
+        index_file = frontend_path / "index.html"
+        if index_file.exists():
+            return FileResponse(str(index_file))
+        return {"message": "Frontend not found"}
+    
+    @app.get("/{path:path}")
+    async def serve_frontend_routes(path: str):
+        """Serve frontend for all routes (SPA)"""
+        # Check if it's an API route
+        if path.startswith(("api/", "docs", "openapi.json", "health", "query")):
+            raise HTTPException(status_code=404, detail="Not found")
+        
+        # Serve index.html for frontend routes
+        index_file = frontend_path / "index.html"
+        if index_file.exists():
+            return FileResponse(str(index_file))
+        raise HTTPException(status_code=404, detail="Frontend not found")
 
 
 if __name__ == "__main__":
