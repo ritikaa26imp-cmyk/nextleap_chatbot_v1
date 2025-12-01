@@ -17,8 +17,12 @@ COPY requirements.txt .
 # Use --no-cache-dir to reduce image size
 # Install CPU-only PyTorch first (saves ~2GB compared to full PyTorch)
 RUN pip install --no-cache-dir --upgrade pip && \
-    pip install --no-cache-dir torch==2.1.0+cpu --index-url https://download.pytorch.org/whl/cpu && \
-    pip install --no-cache-dir -r requirements.txt
+    pip install --no-cache-dir torch==2.1.0+cpu --index-url https://download.pytorch.org/whl/cpu --no-deps && \
+    pip install --no-cache-dir -r requirements.txt && \
+    # Clean up pip cache
+    rm -rf /root/.cache/pip && \
+    # Don't download models during build - they'll be downloaded at runtime
+    rm -rf /root/.cache/huggingface || true
 
 # Copy application code
 COPY . .
