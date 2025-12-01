@@ -39,6 +39,11 @@ def main():
     
     # Step 2: Generate embeddings
     print("\nStep 2: Generating embeddings...")
+    # Set cache directories to /tmp to avoid including in Docker image
+    import os
+    os.environ['TRANSFORMERS_CACHE'] = '/tmp/transformers_cache'
+    os.environ['HF_HOME'] = '/tmp/huggingface'
+    os.environ['SENTENCE_TRANSFORMERS_HOME'] = '/tmp/sentence_transformers'
     embedder = EmbeddingGenerator()
     chunk_texts = [chunk["content"] for chunk in chunks]
     embeddings = embedder.generate_embeddings(chunk_texts)

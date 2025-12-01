@@ -19,10 +19,17 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir --upgrade pip && \
     pip install --no-cache-dir torch==2.1.0+cpu --index-url https://download.pytorch.org/whl/cpu --no-deps && \
     pip install --no-cache-dir -r requirements.txt && \
-    # Clean up pip cache
+    # Clean up ALL caches and temporary files
     rm -rf /root/.cache/pip && \
-    # Don't download models during build - they'll be downloaded at runtime
-    rm -rf /root/.cache/huggingface || true
+    rm -rf /root/.cache/huggingface && \
+    rm -rf /root/.cache/torch && \
+    rm -rf /tmp/* && \
+    # Remove Python bytecode and cache
+    find /usr/local/lib/python3.9 -name '*.pyc' -delete && \
+    find /usr/local/lib/python3.9 -name '__pycache__' -type d -exec rm -rf {} + 2>/dev/null || true && \
+    # Remove unnecessary files
+    rm -rf /var/lib/apt/lists/* && \
+    apt-get clean
 
 # Copy application code
 COPY . .

@@ -20,8 +20,12 @@ class EmbeddingGenerator:
             print(f"Loading embedding model: {model_name}...")
             # Use device='cpu' explicitly to avoid CUDA issues on Railway
             # Cache models in a writable location (Railway's ephemeral storage)
+            # Set environment variables to prevent model downloads during import
             import os
-            cache_dir = os.getenv('TRANSFORMERS_CACHE', '/tmp/transformers_cache')
+            os.environ['TRANSFORMERS_CACHE'] = '/tmp/transformers_cache'
+            os.environ['HF_HOME'] = '/tmp/huggingface'
+            os.environ['SENTENCE_TRANSFORMERS_HOME'] = '/tmp/sentence_transformers'
+            cache_dir = '/tmp/transformers_cache'
             os.makedirs(cache_dir, exist_ok=True)
             self.model = SentenceTransformer(model_name, device='cpu', cache_folder=cache_dir)
             print("Model loaded successfully!")

@@ -10,7 +10,11 @@ cmds = [
   "pip install --no-cache-dir torch==2.1.0+cpu --index-url https://download.pytorch.org/whl/cpu --no-deps",
   "pip install --no-cache-dir -r requirements.txt",
   "rm -rf /root/.cache/pip || true",
-  "rm -rf /root/.cache/huggingface || true"
+  "rm -rf /root/.cache/huggingface || true",
+  "rm -rf /root/.cache/torch || true",
+  "rm -rf /tmp/* || true",
+  "find /usr/local/lib/python3.9 -name '*.pyc' -delete || true",
+  "find /usr/local/lib/python3.9 -name '__pycache__' -type d -exec rm -rf {} + || true"
 ]
 
 [phases.build]
