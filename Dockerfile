@@ -46,6 +46,11 @@ EXPOSE 8000
 # Set environment variables
 ENV PYTHONUNBUFFERED=1
 ENV PORT=8000
+# Prevent model downloads during build
+ENV TRANSFORMERS_CACHE=/tmp/transformers_cache
+ENV HF_HOME=/tmp/huggingface
+ENV SENTENCE_TRANSFORMERS_HOME=/tmp/sentence_transformers
+ENV HF_DATASETS_CACHE=/tmp/hf_datasets
 
 # Run the application
 CMD ["uvicorn", "src.api.server:app", "--host", "0.0.0.0", "--port", "8000"]
