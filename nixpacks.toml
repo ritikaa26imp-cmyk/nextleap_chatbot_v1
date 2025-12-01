@@ -19,12 +19,9 @@ cmds = [
 
 [phases.build]
 cmds = [
-  "mkdir -p data/knowledge_base/chroma_db data/processed data/raw",
-  "export TRANSFORMERS_CACHE=/tmp/transformers_cache",
-  "export HF_HOME=/tmp/huggingface",
-  "export SENTENCE_TRANSFORMERS_HOME=/tmp/sentence_transformers",
-  "python3 scripts/build_kb.py || echo 'Warning: Knowledge base build failed, will be created on first query'",
-  "rm -rf /tmp/transformers_cache /tmp/huggingface /tmp/sentence_transformers /tmp/hf_datasets || true"
+  "mkdir -p data/knowledge_base/chroma_db data/processed data/raw"
+  # Skip KB build during Docker build to avoid downloading models
+  # KB will be built automatically on first query if missing
 ]
 
 [start]
