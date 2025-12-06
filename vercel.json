@@ -21,10 +21,5 @@
       "src": "/",
       "dest": "/frontend/index.html"
     }
-  ],
-  "functions": {
-    "api/index.py": {
-      "maxDuration": 60
-    }
-  }
+  ]
 }
