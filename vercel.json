@@ -3,15 +3,15 @@
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "/api/index.py"
+      "dest": "api/index.py"
     },
     {
       "src": "/health",
-      "dest": "/api/index.py"
+      "dest": "api/index.py"
     },
     {
       "src": "/query",
-      "dest": "/api/index.py"
+      "dest": "api/index.py"
     },
     {
       "src": "/(.*\\.(html|css|js|png|jpg|jpeg|gif|svg|ico))",

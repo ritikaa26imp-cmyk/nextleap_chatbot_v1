@@ -18,7 +18,7 @@ os.environ.setdefault('SENTENCE_TRANSFORMERS_HOME', '/tmp/sentence_transformers'
 # Import the FastAPI app
 from src.api.server import app
 
-# Vercel expects a handler function
+# Vercel expects a handler function - this is the entry point
 def handler(request):
     """
     Vercel serverless function handler
@@ -31,6 +31,9 @@ def handler(request):
     
     # Convert Vercel request to ASGI scope
     return asgi_handler(request)
+
+# Export handler for Vercel
+__all__ = ['handler']
 
 # For local testing
 if __name__ == "__main__":
