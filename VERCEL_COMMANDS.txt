@@ -1,0 +1,67 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🚀 VERCEL DEPLOYMENT - EXACT COMMANDS TO RUN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Run these commands in your terminal, one at a time:
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STEP 1: Login to Vercel
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+vercel login
+
+Instructions:
+- A URL will be shown (e.g., https://vercel.com/oauth/device?user_code=XXXX-XXXX)
+- Visit that URL in your browser
+- Complete the authentication
+- Return to terminal and press ENTER
+- You should see "Success! Authentication complete"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STEP 2: Link Project to Vercel
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+vercel link
+
+When prompted:
+- ? Set up and develop "nextleap_chatbot_v1"? [Y/n] → Press Y
+- ? Which scope should contain your project? → Select your account
+- ? Link to existing project? [y/N] → Press N (to create new)
+- ? What's your project's name? → nextleap-chatbot
+- ? In which directory is your code located? → ./
+- ? Want to override the settings? [y/N] → Press N
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STEP 3: Add Environment Variable
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+vercel env add GEMINI_API_KEY
+
+When prompted:
+- ? What's the value of GEMINI_API_KEY? → Enter your Gemini API key
+- ? Add GEMINI_API_KEY to which Environments (select multiple)? 
+  → Select: Production, Preview, Development (use spacebar to select all)
+  → Press ENTER to confirm
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STEP 4: Deploy to Production
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+vercel --prod
+
+This will:
+- Build your project
+- Deploy to production
+- Provide you with a deployment URL (e.g., https://nextleap-chatbot.vercel.app)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+VERIFICATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+After deployment, test your chatbot:
+1. Visit the deployment URL
+2. Try a sample query: "What is the cost of data analyst course?"
+3. First query may take 30-60 seconds (building KB)
+4. Subsequent queries will be fast
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
