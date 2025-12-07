@@ -1,43 +1,11 @@
-# Git
-.git
-.gitignore
-
-# Python
+# Exclude large files and directories from Vercel build
+data/knowledge_base/chroma_db/
+data/raw/*.html
+*.log
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
+*.pyc
+.cache/
+node_modules/
 venv/
 env/
-ENV/
-.venv
-
-# Data directories (will be built on first request)
-data/knowledge_base/chroma_db/
-data/raw/
-*.log
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Railway specific (removed - not needed for Vercel)
-
-# Documentation
-*.md
-!README.md
-
-# Test files
-test_*.py
-*_test.py
-
-# Scripts (not needed in production)
-scripts/
-
+.venv/

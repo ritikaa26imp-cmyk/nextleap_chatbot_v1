@@ -3,11 +3,11 @@ beautifulsoup4==4.12.2
 requests==2.31.0
 lxml==4.9.3
 
-# Data Processing
+# Data Processing - Use lighter versions
 pandas==2.1.3
 numpy>=1.26.0
 
-# Vector Database & Embeddings
+# Vector Database & Embeddings - Install separately to reduce memory
 chromadb==0.4.18
 sentence-transformers==2.2.2
 
